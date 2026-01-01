@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen Ejecutivo AGROSOLVENTS - A4 Vertical</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Montserrat:wght@700;900&display=swap');
+        
+        :root {
+            --primary: #0d9488;
+            --secondary: #84cc16;
+            --accent: #0ea5e9;
+            --dark: #0f172a;
+            --light: #f8fafc;
+        }
+
+        body {
+            background-color: #cbd5e1;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Dimensiones estricta A4 Vertical */
+        .a4-portrait {
+            width: 210mm;
+            height: 297mm;
+            background-color: white;
+            box-shadow: 0 0 40px rgba(0,0,0,0.2);
+            padding: 15mm;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .a4-portrait { box-shadow: none; margin: 0; width: 210mm; height: 297mm; }
+        }
+
+        .header-font { font-family: 'Montserrat', sans-serif; }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 250px; /* Ajustado para el flujo vertical */
+            max-height: 250px;
+        }
+
+        .process-dot {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 0.8rem;
+            background: var(--primary);
+            color: white;
+            z-index: 10;
+        }
+
+        .line-connector {
+            position: absolute;
+            left: 1.25rem;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e2e8f0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Chosen Palette: Energetic & Playful (Teal #0d9488, Lime #84cc16, Sky #0ea5e9) -->
+<!-- Application Structure Plan:
+    1. Header: Consortium logos + Title.
+    2. Authors & Status: Identifying leadership.
+    3. Abstract Block: The textual heart of the summary.
+    4. Metrics Grid: 3-column KPIs.
+    5. Methodology Vertical Flow: Synthesis -> Python -> Aspen -> Product.
+    6. Visual Evidence: Radar Chart (Performance) + Vertical Bar (Flash Point).
+    7. Footer: Keywords & Scientific Tags.
+-->
+<!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+
+<div class="a4-portrait">
+    
+    <!-- Header -->
+    <header class="flex justify-between items-start border-b-4 border-teal-600 pb-4 mb-6">
+        <div>
+            <h1 class="header-font text-3xl font-black tracking-tighter text-slate-900 leading-none">AGRO<span class="text-lime-500">SOLVENTS</span></h1>
+            <p class="text-[0.65rem] font-bold text-slate-400 uppercase tracking-[0.2em] mt-1">Ingeniería de Disolventes Bio-basados</p>
+        </div>
+        <div class="text-right">
+            <p class="text-[0.6rem] font-black text-slate-800 uppercase tracking-widest leading-none mb-1">UVIGO &bull; DROVI &bull; CDTI</p>
+            <div class="inline-block px-2 py-1 bg-lime-100 text-lime-700 text-[0.55rem] font-bold rounded">INFORME FINAL 2025</div>
+        </div>
+    </header>
+
+    <!-- Autores -->
+    <div class="flex justify-between items-center mb-6 bg-slate-50 p-3 rounded-lg border border-slate-100">
+        <div class="text-[0.7rem] text-slate-600">
+            <span class="font-bold uppercase text-teal-700">Autores Principales:</span><br>
+            Ana María González Sánchez & Ángel Sánchez Bermúdez
+        </div>
+        <div class="text-right text-[0.6rem] text-slate-400 font-bold uppercase tracking-tighter leading-tight">
+            Dpto. Ingeniería Química<br>Universidad de Vigo
+        </div>
+    </div>
+
+    <!-- Abstract -->
+    <section class="mb-6">
+        <h2 class="header-font text-xs font-black text-slate-800 uppercase mb-2 flex items-center gap-2">
+            <span class="w-1.5 h-1.5 bg-lime-500 rounded-full"></span> Resumen Ejecutivo / Abstract
+        </h2>
+        <div class="text-[0.78rem] leading-relaxed text-slate-600 space-y-2">
+            <p>
+                Este proyecto valida el desarrollo de disolventes industriales sostenibles derivados de biomasa como alternativa técnica a los petroquímicos convencionales. El equipo <strong>UVIGO</strong> ha liderado la síntesis de palmitatos, ésteres dibásicos y microemulsiones técnicas.
+            </p>
+            <p>
+                Mediante modelos de contribución de grupos (<strong>UNIFAC</strong>) y métodos de actividad (<strong>NRTL/UNIQUAC</strong>), se modeló el comportamiento de soluciones no ideales en <strong>Python</strong>, permitiendo optimizar formulaciones y predecir equilibrios de fase. La viabilidad se confirmó con simulaciones en <strong>Aspen Plus y Hysys</strong>, logrando conversiones superiores al 98%.
+            </p>
+        </div>
+    </section>
+
+    <!-- KPIs -->
+    <div class="grid grid-cols-3 gap-3 mb-8">
+        <div class="bg-teal-600 text-white p-4 rounded-2xl shadow-sm text-center">
+            <div class="text-2xl font-black leading-none mb-1">98.5%</div>
+            <p class="text-[0.5rem] font-bold uppercase opacity-80">Conversión Reacción</p>
+        </div>
+        <div class="bg-lime-500 text-white p-4 rounded-2xl shadow-sm text-center">
+            <div class="text-2xl font-black leading-none mb-1">100%</div>
+            <p class="text-[0.5rem] font-bold uppercase opacity-80">Biodegradabilidad</p>
+        </div>
+        <div class="bg-slate-800 text-white p-4 rounded-2xl shadow-sm text-center">
+            <div class="text-2xl font-black leading-none mb-1">-85%</div>
+            <p class="text-[0.5rem] font-bold uppercase opacity-80">Emisión COVs</p>
+        </div>
+    </div>
+
+    <!-- Methodology Flow Vertical -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <section>
+            <h2 class="header-font text-xs font-black text-slate-800 uppercase mb-4">Hoja de Ruta Metodológica</h2>
+            <div class="space-y-4 relative">
+                <div class="line-connector"></div>
+                
+                <div class="relative flex items-start gap-4">
+                    <div class="process-dot bg-teal-600">01</div>
+                    <div>
+                        <p class="text-[0.65rem] font-black text-teal-800 uppercase">Síntesis Química</p>
+                        <p class="text-[0.6rem] text-slate-500">Transesterificación de aceites base.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-start gap-4">
+                    <div class="process-dot bg-lime-500">02</div>
+                    <div>
+                        <p class="text-[0.65rem] font-black text-lime-700 uppercase">Modelado en Python</p>
+                        <p class="text-[0.6rem] text-slate-500">Estimación de no idealidad (UNIFAC).</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-start gap-4">
+                    <div class="process-dot bg-sky-500">03</div>
+                    <div>
+                        <p class="text-[0.65rem] font-black text-sky-700 uppercase">Simulación de Planta</p>
+                        <p class="text-[0.6rem] text-slate-500">Validación Aspen Plus / Hysys.</p>
+                    </div>
+                </div>
+
+                <div class="relative flex items-start gap-4">
+                    <div class="process-dot bg-slate-900">04</div>
+                    <div>
+                        <p class="text-[0.65rem] font-black text-slate-700 uppercase">Validación REACH</p>
+                        <p class="text-[0.6rem] text-slate-500">Certificación técnica y ambiental.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety Bar Chart -->
+        <section class="bg-slate-50 p-4 rounded-2xl border border-slate-100 flex flex-col justify-between">
+            <h3 class="header-font text-[0.6rem] font-black text-slate-800 uppercase mb-2">Punto de Inflamación (Flash Point °C)</h3>
+            <div class="chart-container">
+                <canvas id="chartBar"></canvas>
+            </div>
+            <p class="text-[0.55rem] text-slate-500 italic mt-2">
+                Los Agrosolventes (Palma/Mezcla) eliminan el riesgo explosivo ATEX.
+            </p>
+        </section>
+    </div>
+
+    <!-- Radar Chart Section -->
+    <section class="mb-8 border-t border-slate-100 pt-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+            <div>
+                <h2 class="header-font text-xs font-black text-slate-800 uppercase mb-3">Evaluación Multidimensional (3 Pilares)</h2>
+                <div class="chart-container">
+                    <canvas id="chartRadar"></canvas>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <div class="p-3 border-l-4 border-lime-500 bg-lime-50 rounded-r-lg">
+                    <p class="text-[0.65rem] font-bold text-lime-800">ECO: Residuo Cero</p>
+                    <p class="text-[0.55rem] text-lime-700">Origen agronómico 100% renovable y baja huella de CO2.</p>
+                </div>
+                <div class="p-3 border-l-4 border-teal-600 bg-teal-50 rounded-r-lg">
+                    <p class="text-[0.65rem] font-bold text-teal-800">SOCIAL: Salud Laboral</p>
+                    <p class="text-[0.55rem] text-teal-700">Sustitución de tóxicos carcinógenos y apoyo rural.</p>
+                </div>
+                <div class="p-3 border-l-4 border-sky-500 bg-sky-50 rounded-r-lg">
+                    <p class="text-[0.65rem] font-bold text-sky-800">ECONÓMICO: Viabilidad</p>
+                    <p class="text-[0.55rem] text-sky-700">Costes competitivos vs hidrocarburos mediante optimización Aspen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Keywords -->
+    <footer class="mt-auto border-t-2 border-slate-100 pt-4 pb-2">
+        <div class="flex flex-wrap gap-1.5 mb-4 justify-center">
+            <span class="px-2 py-0.5 bg-slate-100 rounded-full text-[0.55rem] font-bold text-slate-500 uppercase">Disolventes bio</span>
+            <span class="px-2 py-0.5 bg-slate-100 rounded-full text-[0.55rem] font-bold text-slate-500 uppercase">Química Verde</span>
+            <span class="px-2 py-0.5 bg-slate-100 rounded-full text-[0.55rem] font-bold text-slate-500 uppercase">Termodinámica No Ideal</span>
+            <span class="px-2 py-0.5 bg-slate-100 rounded-full text-[0.55rem] font-bold text-slate-500 uppercase">Aspen Plus</span>
+            <span class="px-2 py-0.5 bg-slate-100 rounded-full text-[0.55rem] font-bold text-slate-500 uppercase">Microemulsiones</span>
+            <span class="px-2 py-0.5 bg-slate-100 rounded-full text-[0.55rem] font-bold text-slate-500 uppercase">Python</span>
+        </div>
+        <div class="flex justify-between items-center text-[0.55rem] font-bold text-slate-400">
+            <p>RESUMEN TÉCNICO &bull; AGROSOLVENTS &bull; 2025</p>
+            <div class="flex gap-3">
+                <span class="text-teal-600 uppercase">Software: Python 3.12</span>
+                <span class="text-lime-600 uppercase">Models: UNIFAC / NRTL</span>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    // Label Wrapping Logic (Mandatory > 16 chars)
+    function wrapLabels(labels) {
+        return labels.map(label => {
+            if (label.length <= 16) return label;
+            const words = label.split(' ');
+            const wrapped = [];
+            let current = '';
+            words.forEach(word => {
+                if ((current + word).length > 16) {
+                    wrapped.push(current.trim());
+                    current = word + ' ';
+                } else {
+                    current += word + ' ';
+                }
+            });
+            wrapped.push(current.trim());
+            return wrapped;
+        });
+    }
+
+    // Tooltip Configuration (Mandatory)
+    const tooltipConfig = {
+        callbacks: {
+            title: function(tooltipItems) {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) return label.join(' ');
+                return label;
+            }
+        }
+    };
+
+    // Chart 1: Bar Chart (Safety)
+    new Chart(document.getElementById('chartBar'), {
+        type: 'bar',
+        data: {
+            labels: wrapLabels(['Palmitato Palma', 'Mezcla UVIGO', 'Tolueno (Fósil)', 'Hexano (Fósil)']),
+            datasets: [{
+                data: [175, 125, 4, -22],
+                backgroundColor: ['#0d9488', '#84cc16', '#ef4444', '#f87171'],
+                borderRadius: 4,
+                barThickness: 20
+            }]
+        },
+        options: {
+            maintainAspectRatio: false,
+            plugins: { tooltip: tooltipConfig, legend: { display: false } },
+            scales: {
+                y: { grid: { color: '#f1f5f9' }, ticks: { font: { size: 7 } } },
+                x: { grid: { display: false }, ticks: { font: { size: 6, weight: 'bold' } } }
+            }
+        }
+    });
+
+    // Chart 2: Radar Chart (Pillars)
+    new Chart(document.getElementById('chartRadar'), {
+        type: 'radar',
+        data: {
+            labels: wrapLabels(['Ecológico', 'Social', 'Económico', 'Biodegradabilidad', 'Salud Laboral', 'Eficacia']),
+            datasets: [{
+                label: 'Agrosolvent Performance',
+                data: [100, 95, 88, 100, 98, 92],
+                backgroundColor: 'rgba(13, 148, 136, 0.2)',
+                borderColor: '#0d9488',
+                borderWidth: 2,
+                pointRadius: 2
+            }, {
+                label: 'Referencia Fósil',
+                data: [25, 30, 96, 10, 20, 94],
+                backgroundColor: 'rgba(239, 68, 68, 0.1)',
+                borderColor: '#ef4444',
+                borderWidth: 1,
+                pointRadius: 0,
+                borderDash: [4, 4]
+            }]
+        },
+        options: {
+            maintainAspectRatio: false,
+            plugins: { tooltip: tooltipConfig, legend: { display: false } },
+            scales: {
+                r: {
+                    angleLines: { color: '#e2e8f0' },
+                    grid: { color: '#e2e8f0' },
+                    suggestedMin: 0,
+                    pointLabels: { font: { size: 7, weight: 'bold' } },
+                    ticks: { display: false }
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

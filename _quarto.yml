@@ -8,9 +8,10 @@ book:
     - "Ana María González Sánchez"
     - "Ángel Sánchez Bermúdez"
   date: today
-
+  cover-image: cover.png
 
   chapters:
+    - cover.qmd
     - index.qmd
     - intro.qmd
     - fames.qmd
@@ -22,9 +23,11 @@ format:
   html:
     theme:
       - brand
+    cover-graph: true
+    toc: false 
   pdf:
     documentclass: scrreprt
-    number-depth: 3
+    number-depth: 2
     include-in-header: 
       text: |
         \usepackage{imakeidx}
