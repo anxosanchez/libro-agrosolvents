@@ -11,10 +11,12 @@ book:
   cover-image: cover.png
 
   chapters:
-    - cover.qmd
+#    - cover.qmd
+    - abstract.md
     - index.qmd
     - intro.qmd
     - fames.qmd
+    - reciclado.qmd
     - summary.qmd
     - references.qmd
 
