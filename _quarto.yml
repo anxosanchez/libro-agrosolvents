@@ -1,0 +1,41 @@
+project:
+  type: book
+lang: es
+book:
+  title: "INFORME UVIGO AGROSOLVENTS"
+  subtitle: "Informe de la participación del equipo de la UVIGO en el proyecto AGROSOLVENTS"
+  author: 
+    - "Ana María González Sánchez"
+    - "Ángel Sánchez Bermúdez"
+  date: today
+
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+format:
+  html:
+    theme:
+      - brand
+  pdf:
+    documentclass: scrreprt
+    number-depth: 3
+    include-in-header: 
+      text: |
+        \usepackage{imakeidx}
+        \makeindex[intoc=true, columns=3, columnseprule=true, options=-s latex/indexstyles.ist]
+    include-after-body: 
+      text: |
+        \printindex
+  epub:
+    number-depth: 3
+    cover-image: cover.png
+
+
+
+
+
