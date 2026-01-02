@@ -6,27 +6,49 @@ book:
   subtitle: "Informe de la participación del equipo de la UVIGO en el proyecto AGROSOLVENTS"
   author: 
     - "Ana María González Sánchez"
-    - "Ángel Sánchez Bermúdez"
+    - "Ángel Manuel Sánchez Bermúdez"
   date: today
-  cover-image: cover.png
-
+  # cover-image: cover.png
+  page-navigation: true
   chapters:
-#    - cover.qmd
-    - abstract.md
-    - index.qmd
+  - index.qmd
+  - part: parteI.qmd
+    chapters:
     - intro.qmd
+    - tarefas-uvigo.qmd
+  #- preface
+  - part: parteII.qmd
+    chapters:
+    - estudio-bibliografico.qmd
     - fames.qmd
+  - part: parteIII.qmd
+    chapters:
     - reciclado.qmd
+    - fames-2.qmd
     - summary.qmd
-    - references.qmd
+  - references.qmd
+
+  page-footer: 
+    left: "Copyright 2025, Anxo Sánchez" 
+    right: 
+      - icon: github 
+        href: https://github.com/anxosanchez 
+      - icon: twitter  
+        href: https://twitter.com/anxosanchez 
+
+  navbar:
+    background: primary
+
 
 bibliography: references.bib
+
 format:
   html:
-    theme:
-      - brand
-    cover-graph: true
-    toc: false 
+    theme: 
+      dark: solar
+      light: cosmo
+    cover-graph: false
+
   pdf:
     documentclass: scrreprt
     number-depth: 2
@@ -40,8 +62,4 @@ format:
   epub:
     number-depth: 3
     cover-image: cover.png
-
-
-
-
 

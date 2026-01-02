@@ -12,6 +12,3 @@ Microemulsiones (Microemulsions)
 Transesterificación (Transesterification)  
 Modelado en Python (Python modeling)  
 Balances de materia y energía (Mass and energy balances)  
-
-
-

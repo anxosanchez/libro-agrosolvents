@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>4&nbsp; Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes – INFORME UVIGO AGROSOLVENTS</title>
+<title>5&nbsp; Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes – INFORME UVIGO AGROSOLVENTS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,8 +65,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./reciclado.html" rel="next">
-<link href="./intro.html" rel="prev">
+<link href="./parteII.html" rel="next">
+<link href="./estudio-bibliografico.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -74,16 +74,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-99913b7803b80b0c1d2b970a25816663.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a03024519c09630ebc663d168e794eec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-caa48fda0a3d7cf940d1b19e7113f31a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -138,78 +140,270 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent quarto-light">
+<body class="nav-sidebar floating nav-fixed quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">INFORME UVIGO AGROSOLVENTS</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+          <div id="quarto-search" class="" title="Buscar"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./fames.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./parteI.html">PARTE I</a></li><li class="breadcrumb-item"><a href="./fames.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
       </a>
-    <div class="sidebar-title mb-0 py-0">
-      <a href="./">INFORME UVIGO AGROSOLVENTS</a> 
-    </div>
       </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Buscar"></div>
-        </div>
-        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./abstract.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Resumen Ejecutivo / Abstract</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Prógolo</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Informe AGROSOLVENTS</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./parteI.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PARTE I</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Informe de Actividades de la UVIGO</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Actividades de la UVIGO</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tarefas-uvigo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Resumen de actividaddes y tareas de la UVIGO</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./estudio-bibliografico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Estudio biliográfico</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./fames.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./parteII.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PARTE II</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./reciclado.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Simulación de Planta de Reciclado de Biodiésel y DBEs mediante ATFE</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Simulación de Planta de Reciclado de Biodiésel y DBEs mediante ATFE</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
   </div>
 </li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
@@ -221,13 +415,34 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#un-análisis-comparativo-de-derivados-de-palma-soja-y-girasol" id="toc-un-análisis-comparativo-de-derivados-de-palma-soja-y-girasol" class="nav-link active" data-scroll-target="#un-análisis-comparativo-de-derivados-de-palma-soja-y-girasol"><span class="header-section-number">5.0.1</span> Un Análisis Comparativo de Derivados de Palma, Soja y Girasol</a></li>
+  <li><a href="#introducción-el-paradigma-de-los-disolventes-verdes" id="toc-introducción-el-paradigma-de-los-disolventes-verdes" class="nav-link" data-scroll-target="#introducción-el-paradigma-de-los-disolventes-verdes"><span class="header-section-number">5.0.2</span> Introducción: El Paradigma de los Disolventes Verdes</a></li>
+  <li><a href="#métodos-de-síntesis-y-purificación" id="toc-métodos-de-síntesis-y-purificación" class="nav-link" data-scroll-target="#métodos-de-síntesis-y-purificación"><span class="header-section-number">5.0.3</span> Métodos de Síntesis y Purificación</a></li>
+  <li><a href="#composición-en-ácidos-grasos-la-base-estructural" id="toc-composición-en-ácidos-grasos-la-base-estructural" class="nav-link" data-scroll-target="#composición-en-ácidos-grasos-la-base-estructural"><span class="header-section-number">5.0.4</span> Composición en Ácidos Grasos: La Base Estructural</a></li>
+  <li><a href="#propiedades-fisicoquímicas-críticas" id="toc-propiedades-fisicoquímicas-críticas" class="nav-link" data-scroll-target="#propiedades-fisicoquímicas-críticas"><span class="header-section-number">5.0.5</span> Propiedades Fisicoquímicas Críticas</a></li>
+  <li><a href="#termodinámica-de-soluciones-parámetros-de-hansen-y-miscibilidad" id="toc-termodinámica-de-soluciones-parámetros-de-hansen-y-miscibilidad" class="nav-link" data-scroll-target="#termodinámica-de-soluciones-parámetros-de-hansen-y-miscibilidad"><span class="header-section-number">5.0.6</span> Termodinámica de Soluciones: Parámetros de Hansen y Miscibilidad</a></li>
+  <li><a href="#utilidades-y-aplicaciones-industriales" id="toc-utilidades-y-aplicaciones-industriales" class="nav-link" data-scroll-target="#utilidades-y-aplicaciones-industriales"><span class="header-section-number">5.0.7</span> Utilidades y Aplicaciones Industriales</a></li>
+  <li><a href="#análisis-de-solvencia-mediante-parámetros-de-hansen-hsp" id="toc-análisis-de-solvencia-mediante-parámetros-de-hansen-hsp" class="nav-link" data-scroll-target="#análisis-de-solvencia-mediante-parámetros-de-hansen-hsp"><span class="header-section-number">5.1</span> Análisis de Solvencia mediante Parámetros de Hansen (HSP)</a>
+  <ul class="collapse">
+  <li><a href="#predicción-de-propiedades-de-mezcla" id="toc-predicción-de-propiedades-de-mezcla" class="nav-link" data-scroll-target="#predicción-de-propiedades-de-mezcla"><span class="header-section-number">5.1.1</span> Predicción de Propiedades de Mezcla</a></li>
+  <li><a href="#análisis-de-los-resultados-computacionales" id="toc-análisis-de-los-resultados-computacionales" class="nav-link" data-scroll-target="#análisis-de-los-resultados-computacionales"><span class="header-section-number">5.1.2</span> Análisis de los Resultados Computacionales</a></li>
+  <li><a href="#aplicación-fames" id="toc-aplicación-fames" class="nav-link" data-scroll-target="#aplicación-fames"><span class="header-section-number">5.1.3</span> Aplicación FAMES</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./parteI.html">PARTE I</a></li><li class="breadcrumb-item"><a href="./fames.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Ésteres Metílicos de Ácidos Grasos como Disolventes Verdes</span></h1>
 </div>
 
 
@@ -244,27 +459,27 @@ window.Quarto = {
 </header>
 
 
-<section id="un-análisis-comparativo-de-derivados-de-palma-soja-y-girasol" class="level3" data-number="4.0.1">
-<h3 data-number="4.0.1" class="anchored" data-anchor-id="un-análisis-comparativo-de-derivados-de-palma-soja-y-girasol"><span class="header-section-number">4.0.1</span> Un Análisis Comparativo de Derivados de Palma, Soja y Girasol</h3>
+<section id="un-análisis-comparativo-de-derivados-de-palma-soja-y-girasol" class="level3" data-number="5.0.1">
+<h3 data-number="5.0.1" class="anchored" data-anchor-id="un-análisis-comparativo-de-derivados-de-palma-soja-y-girasol"><span class="header-section-number">5.0.1</span> Un Análisis Comparativo de Derivados de Palma, Soja y Girasol</h3>
 </section>
-<section id="introducción-el-paradigma-de-los-disolventes-verdes" class="level3" data-number="4.0.2">
-<h3 data-number="4.0.2" class="anchored" data-anchor-id="introducción-el-paradigma-de-los-disolventes-verdes"><span class="header-section-number">4.0.2</span> Introducción: El Paradigma de los Disolventes Verdes</h3>
+<section id="introducción-el-paradigma-de-los-disolventes-verdes" class="level3" data-number="5.0.2">
+<h3 data-number="5.0.2" class="anchored" data-anchor-id="introducción-el-paradigma-de-los-disolventes-verdes"><span class="header-section-number">5.0.2</span> Introducción: El Paradigma de los Disolventes Verdes</h3>
 <p>La ingeniería química moderna atraviesa una transición fundamental impulsada por los principios de la Química Verde. La sustitución de disolventes petroquímicos volátiles (VOCs), a menudo tóxicos e inflamables, por alternativas biobasadas es una prioridad. En este contexto, los <strong>Ésteres Metílicos de Ácidos Grasos (FAMEs)</strong>, comúnmente conocidos en el sector energético como biodiésel, emergen en el sector químico como disolventes de alto punto de ebullición, baja toxicidad y biodegradabilidad inherente.</p>
 <p>En este apartado se analizan los metil ésteres derivados de tres oleaginosas principales: <strong>Palma</strong> (<em>Elaeis guineensis</em>), <strong>Soja</strong> (<em>Glycine max</em>) y <strong>Girasol</strong> (<em>Helianthus annuus</em>), evaluando su síntesis, propiedades fisicoquímicas y comportamiento termodinámico mediante parámetros de solubilidad.</p>
 </section>
-<section id="métodos-de-síntesis-y-purificación" class="level3" data-number="4.0.3">
-<h3 data-number="4.0.3" class="anchored" data-anchor-id="métodos-de-síntesis-y-purificación"><span class="header-section-number">4.0.3</span> Métodos de Síntesis y Purificación</h3>
+<section id="métodos-de-síntesis-y-purificación" class="level3" data-number="5.0.3">
+<h3 data-number="5.0.3" class="anchored" data-anchor-id="métodos-de-síntesis-y-purificación"><span class="header-section-number">5.0.3</span> Métodos de Síntesis y Purificación</h3>
 <p>La obtención de estos disolventes se realiza principalmente mediante la <strong>transesterificación</strong> de los triglicéridos presentes en el aceite refinado.</p>
-<section id="la-reacción-de-transesterificación" class="level4" data-number="4.0.3.1">
-<h4 data-number="4.0.3.1" class="anchored" data-anchor-id="la-reacción-de-transesterificación"><span class="header-section-number">4.0.3.1</span> La Reacción de Transesterificación</h4>
+<section id="la-reacción-de-transesterificación" class="level4" data-number="5.0.3.1">
+<h4 data-number="5.0.3.1" class="anchored" data-anchor-id="la-reacción-de-transesterificación"><span class="header-section-number">5.0.3.1</span> La Reacción de Transesterificación</h4>
 <p>La reacción general implica la sustitución del grupo glicerol del triglicérido por tres moléculas de metanol, produciendo glicerina como subproducto y tres moléculas de metil ésteres.</p>
 <p><span class="math display">\[
 \text { Triglicérido }+3 \mathrm{CH}_3 \mathrm{OH} \xrightarrow{\text { Catalizador }} \text { Glicerina }+3 \mathrm{R}-\mathrm{COOCH}_3(\mathrm{FAME})
 \]</span></p>
 <p>Aquí tienes una propuesta de disertación técnica, estructurada como un documento académico-industrial, enfocada en los ésteres metílicos de ácidos grasos (FAMEs) derivados de aceites vegetales.</p>
 </section>
-<section id="limpieza-y-refino-downstream-processing" class="level4" data-number="4.0.3.2">
-<h4 data-number="4.0.3.2" class="anchored" data-anchor-id="limpieza-y-refino-downstream-processing"><span class="header-section-number">4.0.3.2</span> Limpieza y Refino (Downstream Processing)</h4>
+<section id="limpieza-y-refino-downstream-processing" class="level4" data-number="5.0.3.2">
+<h4 data-number="5.0.3.2" class="anchored" data-anchor-id="limpieza-y-refino-downstream-processing"><span class="header-section-number">5.0.3.2</span> Limpieza y Refino (Downstream Processing)</h4>
 <p>Para que el FAME actúe como un disolvente de grado técnico o analítico, la purificación es crítica:</p>
 <ol type="1">
 <li><p><strong>Separación de fases:</strong> Decantación gravitacional para retirar la glicerina (fase pesada).</p></li>
@@ -273,8 +488,8 @@ window.Quarto = {
 </ol>
 </section>
 </section>
-<section id="composición-en-ácidos-grasos-la-base-estructural" class="level3" data-number="4.0.4">
-<h3 data-number="4.0.4" class="anchored" data-anchor-id="composición-en-ácidos-grasos-la-base-estructural"><span class="header-section-number">4.0.4</span> Composición en Ácidos Grasos: La Base Estructural</h3>
+<section id="composición-en-ácidos-grasos-la-base-estructural" class="level3" data-number="5.0.4">
+<h3 data-number="5.0.4" class="anchored" data-anchor-id="composición-en-ácidos-grasos-la-base-estructural"><span class="header-section-number">5.0.4</span> Composición en Ácidos Grasos: La Base Estructural</h3>
 <p>Las propiedades del disolvente dependen intrínsecamente del perfil de ácidos grasos del aceite de origen, como se compara en la tabla siguiente.</p>
 <table class="caption-top table">
 <colgroup>
@@ -319,23 +534,23 @@ window.Quarto = {
 </table>
 <p>La presencia de dobles enlaces (insaturaciones) en la soja y el girasol reduce el punto de fusión, haciendo que el disolvente sea líquido a menores temperaturas, pero aumenta la reactividad con el oxígeno (potencial polimerización).</p>
 </section>
-<section id="propiedades-fisicoquímicas-críticas" class="level3" data-number="4.0.5">
-<h3 data-number="4.0.5" class="anchored" data-anchor-id="propiedades-fisicoquímicas-críticas"><span class="header-section-number">4.0.5</span> Propiedades Fisicoquímicas Críticas</h3>
-<section id="densidad-y-viscosidad" class="level4" data-number="4.0.5.1">
-<h4 data-number="4.0.5.1" class="anchored" data-anchor-id="densidad-y-viscosidad"><span class="header-section-number">4.0.5.1</span> Densidad y Viscosidad</h4>
+<section id="propiedades-fisicoquímicas-críticas" class="level3" data-number="5.0.5">
+<h3 data-number="5.0.5" class="anchored" data-anchor-id="propiedades-fisicoquímicas-críticas"><span class="header-section-number">5.0.5</span> Propiedades Fisicoquímicas Críticas</h3>
+<section id="densidad-y-viscosidad" class="level4" data-number="5.0.5.1">
+<h4 data-number="5.0.5.1" class="anchored" data-anchor-id="densidad-y-viscosidad"><span class="header-section-number">5.0.5.1</span> Densidad y Viscosidad</h4>
 <p>A diferencia de los disolventes clorados densos, los FAMEs tienen densidades en el rango de 0.87 - 0.89 g/cm³ a 25°C.</p>
 <ul>
 <li><p>Viscosidad: Es un parámetro crucial. Mientras que el aceite crudo tiene viscosidades de 30-50 cSt, la transesterificación reduce este valor drásticamente a 3.5 - 4.5 cSt (a 40°C). Esto mejora la hidrodinámica y la capacidad de penetración del disolvente en matrices complejas (limpieza de piezas, formulación de tintas).</p></li>
 <li><p>El metil éster de palma, al ser más saturado, tiende a ser ligeramente más viscoso y puede presentar problemas de flujo a temperaturas inferiores a 15°C (alto <em>Cloud Point</em>).</p></li>
 </ul>
 </section>
-<section id="tensión-superficial-y-humectabilidad" class="level4" data-number="4.0.5.2">
-<h4 data-number="4.0.5.2" class="anchored" data-anchor-id="tensión-superficial-y-humectabilidad"><span class="header-section-number">4.0.5.2</span> Tensión Superficial y Humectabilidad</h4>
+<section id="tensión-superficial-y-humectabilidad" class="level4" data-number="5.0.5.2">
+<h4 data-number="5.0.5.2" class="anchored" data-anchor-id="tensión-superficial-y-humectabilidad"><span class="header-section-number">5.0.5.2</span> Tensión Superficial y Humectabilidad</h4>
 <p>Los metil ésteres exhiben tensiones superficiales moderadas (~28-32 mN/m). Esto es superior a los hidrocarburos alifáticos (como el hexano ~18 mN/m) pero inferior al agua (72 mN/m). Esto les confiere una excelente capacidad de humectación sobre superficies metálicas y poliméricas, facilitando procesos de limpieza y decapado.</p>
 </section>
 </section>
-<section id="termodinámica-de-soluciones-parámetros-de-hansen-y-miscibilidad" class="level3" data-number="4.0.6">
-<h3 data-number="4.0.6" class="anchored" data-anchor-id="termodinámica-de-soluciones-parámetros-de-hansen-y-miscibilidad"><span class="header-section-number">4.0.6</span> Termodinámica de Soluciones: Parámetros de Hansen y Miscibilidad</h3>
+<section id="termodinámica-de-soluciones-parámetros-de-hansen-y-miscibilidad" class="level3" data-number="5.0.6">
+<h3 data-number="5.0.6" class="anchored" data-anchor-id="termodinámica-de-soluciones-parámetros-de-hansen-y-miscibilidad"><span class="header-section-number">5.0.6</span> Termodinámica de Soluciones: Parámetros de Hansen y Miscibilidad</h3>
 <p>Para predecir qué pueden disolver estos ésteres (polímeros, resinas, contaminantes), utilizamos los <strong>Parámetros de Solubilidad de Hansen (HSP)</strong>, descomponiendo la energía de cohesión en tres componentes: (dispersión), (polaridad) y (puentes de hidrógeno).</p>
 <p>Valores típicos estimados para FAMEs (unidades en ):<br>
 - <strong>(Dispersión):</strong> ~15.8 - 16.5 (Afinidad con cadenas hidrocarbonadas).<br>
@@ -345,8 +560,8 @@ window.Quarto = {
 - <strong>Insolubles en:</strong> Agua (altamente hidrofóbicos).<br>
 - <strong>Comportamiento:</strong> Se sitúan en la región “limítrofe” del espacio de Hansen, actuando como excelentes “co-solventes” o disolventes de cola (tail solvents) para resinas alquídicas, poliestireno y PVC plastificado.</p>
 </section>
-<section id="utilidades-y-aplicaciones-industriales" class="level3" data-number="4.0.7">
-<h3 data-number="4.0.7" class="anchored" data-anchor-id="utilidades-y-aplicaciones-industriales"><span class="header-section-number">4.0.7</span> Utilidades y Aplicaciones Industriales</h3>
+<section id="utilidades-y-aplicaciones-industriales" class="level3" data-number="5.0.7">
+<h3 data-number="5.0.7" class="anchored" data-anchor-id="utilidades-y-aplicaciones-industriales"><span class="header-section-number">5.0.7</span> Utilidades y Aplicaciones Industriales</h3>
 <p>Gracias a su alto punto de inflamación (&gt;130°C) y baja presión de vapor, estos disolventes se clasifican como no-VOC (o VOC exentos en algunas regulaciones), lo que los hace ideales para espacios confinados.</p>
 <ol type="1">
 <li><strong>Limpieza Industrial y Desengrase:</strong></li>
@@ -377,8 +592,8 @@ window.Quarto = {
 </ul>
 <p>A modo de conclusión podemos decir que los disolventes basados en ésteres metílicos de palma, soja y girasol representan una convergencia exitosa entre la química agrícola y la ingeniería de procesos. Mientras que el <strong>éster de palma</strong> ofrece una robustez oxidativa ideal para procesos a temperatura elevada, los ésteres de <strong>soja y girasol</strong> destacan en aplicaciones a temperatura ambiente donde la viscosidad y la solvencia de resinas son prioritarias. Su modelado termodinámico (mediante UNIFAC o Hansen) confirma su rol como sustitutos viables de disolventes petroquímicos aromáticos y alifáticos, ofreciendo un perfil de seguridad superior y una huella de carbono reducida.</p>
 </section>
-<section id="análisis-de-solvencia-mediante-parámetros-de-hansen-hsp" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="análisis-de-solvencia-mediante-parámetros-de-hansen-hsp"><span class="header-section-number">4.1</span> Análisis de Solvencia mediante Parámetros de Hansen (HSP)</h2>
+<section id="análisis-de-solvencia-mediante-parámetros-de-hansen-hsp" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="análisis-de-solvencia-mediante-parámetros-de-hansen-hsp"><span class="header-section-number">5.1</span> Análisis de Solvencia mediante Parámetros de Hansen (HSP)</h2>
 <p>Para justificar el uso de estos ésteres como disolventes, debemos comparar sus esferas de solubilidad con disolventes industriales tradicionales.</p>
 <p>Tabla Comparativa: FAMEs vs.&nbsp;Disolventes TradicionalesLos valores están expresados en MPa<sup>1/2</sup>.</p>
 <table class="caption-top table">
@@ -444,12 +659,12 @@ window.Quarto = {
 </tbody>
 </table>
 <p>Los metil ésteres se ubican en una zona única. Tienen suficiente componente dispersivo (<span class="math inline">\(\delta_D\)</span>) para disolver grasas y aceites minerales, pero su componente polar (<span class="math inline">\(\delta_P\)</span>) y de puentes de hidrógeno (<span class="math inline">\(\delta_H\)</span>) —debido al grupo éster— les permite atacar resinas que el hexano no puede tocar. Esto explica por qué el biodiésel es un “limpiador universal” tan efectivo para pinturas alquídicas y adhesivos.</p>
-<section id="predicción-de-propiedades-de-mezcla" class="level3" data-number="4.1.1">
-<h3 data-number="4.1.1" class="anchored" data-anchor-id="predicción-de-propiedades-de-mezcla"><span class="header-section-number">4.1.1</span> Predicción de Propiedades de Mezcla</h3>
+<section id="predicción-de-propiedades-de-mezcla" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="predicción-de-propiedades-de-mezcla"><span class="header-section-number">5.1.1</span> Predicción de Propiedades de Mezcla</h3>
 <p>Como ingeniero químico, sabes que un “Aceite de Soja” no es una molécula única, sino una mezcla. Para obtener datos precisos de densidad y viscosidad sin ir al laboratorio, utilizamos <strong>reglas de mezcla</strong>.</p>
 <p>He desarrollado este script que modela el aceite como una mezcla multicomponente de ésteres puros (Palmitato, Oleato, Linoleato, etc.).</p>
-<section id="metodología-matemática" class="level4" data-number="4.1.1.1">
-<h4 data-number="4.1.1.1" class="anchored" data-anchor-id="metodología-matemática"><span class="header-section-number">4.1.1.1</span> Metodología Matemática:</h4>
+<section id="metodología-matemática" class="level4" data-number="5.1.1.1">
+<h4 data-number="5.1.1.1" class="anchored" data-anchor-id="metodología-matemática"><span class="header-section-number">5.1.1.1</span> Metodología Matemática:</h4>
 <ol type="1">
 <li>Densidad (ρ<sub>mix</sub>): Asumimos volúmenes aditivos (mezcla ideal).</li>
 </ol>
@@ -457,8 +672,8 @@ window.Quarto = {
 \rho_{m i x}=\sum\left(x_i \cdot \rho_i\right)
 \]</span></p>
 </section>
-<section id="viscosidad-mu_mix" class="level4" data-number="4.1.1.2">
-<h4 data-number="4.1.1.2" class="anchored" data-anchor-id="viscosidad-mu_mix"><span class="header-section-number">4.1.1.2</span> Viscosidad (<span class="math inline">\(\mu_{mix}\)</span>):</h4>
+<section id="viscosidad-mu_mix" class="level4" data-number="5.1.1.2">
+<h4 data-number="5.1.1.2" class="anchored" data-anchor-id="viscosidad-mu_mix"><span class="header-section-number">5.1.1.2</span> Viscosidad (<span class="math inline">\(\mu_{mix}\)</span>):</h4>
 <p>Utilizamos la regla de mezcla logarítmica de Arrhenius, que es mucho más precisa para líquidos orgánicos que un promedio lineal.</p>
 <p><span class="math display">\[
 \ln \left(\mu_{\text {mix }}\right)=\sum\left(x_i \cdot \ln \left(\mu_i\right)\right)
@@ -498,8 +713,8 @@ window.Quarto = {
 </table>
 </section>
 </section>
-<section id="análisis-de-los-resultados-computacionales" class="level3" data-number="4.1.2">
-<h3 data-number="4.1.2" class="anchored" data-anchor-id="análisis-de-los-resultados-computacionales"><span class="header-section-number">4.1.2</span> Análisis de los Resultados Computacionales</h3>
+<section id="análisis-de-los-resultados-computacionales" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="análisis-de-los-resultados-computacionales"><span class="header-section-number">5.1.2</span> Análisis de los Resultados Computacionales</h3>
 <p>Esta tabla generada por el código demuestra numéricamente lo discutido en la teoría:</p>
 <ul>
 <li>Viscosidad: El FAME de Palma es significativamente más viscoso (~4.4 cSt) que el de Soja o Girasol (~4.0 cSt). Esto se debe a que las cadenas saturadas (Palmitato C16:0) se “empaquetan” mejor y fluyen peor que las cadenas “doblabas” (kinked) de los insaturados (Linoleato C18:2).<br>
@@ -508,8 +723,8 @@ window.Quarto = {
 </ul>
 <p>Se ha elaboado una aplicación para poder utilizar un aceite de composición específica en FAMES:</p>
 </section>
-<section id="aplicación-fames" class="level3" data-number="4.1.3">
-<h3 data-number="4.1.3" class="anchored" data-anchor-id="aplicación-fames"><span class="header-section-number">4.1.3</span> Aplicación FAMES</h3>
+<section id="aplicación-fames" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="aplicación-fames"><span class="header-section-number">5.1.3</span> Aplicación FAMES</h3>
 <div id="a2a8f035" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -580,6 +795,19 @@ window.Quarto = {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -980,17 +1208,43 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./intro.html" class="pagination-link" aria-label="Informe de Actividades de la UVIGO">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Informe de Actividades de la UVIGO</span></span>
+      <a href="./estudio-bibliografico.html" class="pagination-link" aria-label="Estudio biliográfico">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Estudio biliográfico</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./reciclado.html" class="pagination-link" aria-label="Simulación de Planta de Reciclado de Biodiésel y DBEs mediante ATFE">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Simulación de Planta de Reciclado de Biodiésel y DBEs mediante ATFE</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./parteII.html" class="pagination-link" aria-label="PARTE II">
+        <span class="nav-page-text">PARTE II</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2025, Anxo Sánchez</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/anxosanchez">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/anxosanchez">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

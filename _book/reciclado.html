@@ -77,7 +77,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-99913b7803b80b0c1d2b970a25816663.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-27c261d06b905028a18691de25d09dde.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -183,7 +183,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Prógolo</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Informe AGROSOLVENTS</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -245,16 +245,16 @@ window.Quarto = {
 </header>
 
 
-<section id="introducción-teórica" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> 1. Introducción Teórica</h1>
+<section id="introducción-teórica" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="introducción-teórica"><span class="header-section-number">5.1</span> Introducción Teórica</h2>
 <p>El reciclado de biosolventes, específicamente el <strong>Biodiésel (FAME)</strong> y los <strong>Ésteres Dibásicos (DBE)</strong>, es fundamental para la economía circular en la industria química. Estos disolventes se contaminan con resinas, polímeros y aceites pesados tras su uso en limpieza industrial.</p>
 <p>Debido a la alta sensibilidad térmica del biodiésel (riesgo de oxidación y polimerización) y al alto punto de ebullición de los componentes (<span class="math inline">\(&gt;200^\circ\text{C}\)</span>), la destilación convencional es inviable. La tecnología seleccionada es el <strong>Evaporador de Película Agitada (ATFE - Agitated Thin Film Evaporator)</strong>.</p>
-<section id="el-equipo-atfe" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="el-equipo-atfe"><span class="header-section-number">6.1</span> 1.1 El Equipo: ATFE</h2>
+<section id="el-equipo-atfe" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="el-equipo-atfe"><span class="header-section-number">5.1.1</span> El Equipo: ATFE</h3>
 <p>El ATFE utiliza un rotor mecánico que distribuye el líquido en una capa fina (<span class="math inline">\(0.5 - 2 \text{ mm}\)</span>) sobre una pared caliente. Esto permite: * <strong>Tiempos de residencia cortos (s):</strong> Minimiza la degradación. * <strong>Alto coeficiente</strong> <span class="math inline">\(U\)</span>: La agitación rompe la viscosidad. * <strong>Operación a Alto Vacío:</strong> Reduce drásticamente las temperaturas de ebullición.</p>
 </section>
-<section id="química-de-los-fluidos" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="química-de-los-fluidos"><span class="header-section-number">6.2</span> 1.2 Química de los Fluidos</h2>
+<section id="química-de-los-fluidos" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="química-de-los-fluidos"><span class="header-section-number">5.1.2</span> Química de los Fluidos</h3>
 <p>Analizaremos dos escenarios críticos basados en la materia prima del biodiésel:</p>
 <table class="caption-top table">
 <colgroup>
@@ -300,8 +300,8 @@ window.Quarto = {
 <hr>
 </section>
 </section>
-<section id="configuración-de-la-simulación" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> 2. Configuración de la Simulación</h1>
+<section id="configuración-de-la-simulación" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="configuración-de-la-simulación"><span class="header-section-number">5.2</span> Configuración de la Simulación</h2>
 <p>A continuación, se inicializan las librerías de cálculo termodinámico.</p>
 <div id="setup" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -317,151 +317,335 @@ window.Quarto = {
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.style.use(<span class="st">'seaborn-v0_8-whitegrid'</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-<section id="modelo-matemático-python" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> 3. Modelo Matemático (Python)</h1>
+<section id="modelo-matemático-python" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="modelo-matemático-python"><span class="header-section-number">5.3</span> Modelo matemático (Python)</h2>
 <p>Se ha desarrollado un modelo discreto (diferencias finitas) que integra: 1. <strong>VLE (Equilibrio Líquido-Vapor):</strong> Usando la librería <code>thermo</code>. 2. <strong>Transferencia de Calor:</strong> Coeficiente <span class="math inline">\(U\)</span> variable dependiente de la viscosidad local. 3. <strong>Potencia Mecánica:</strong> Cálculo del consumo del rotor por cizallamiento viscoso.</p>
 <p>Definimos la función principal de simulación para poder reutilizarla con diferentes tipos de biodiésel.</p>
-<div id="model-definition" class="cell" data-execution_count="2">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simular_atfe(biodiesel_type<span class="op">=</span><span class="st">'sunflower'</span>):</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># --- 1. PARÁMETROS DE DISEÑO ---</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    L <span class="op">=</span> <span class="fl">3.0</span>             <span class="co"># m</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    D <span class="op">=</span> <span class="fl">0.5</span>             <span class="co"># m</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    Area_total <span class="op">=</span> np.pi <span class="op">*</span> D <span class="op">*</span> L</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    N_steps <span class="op">=</span> <span class="dv">50</span>        </span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    dA <span class="op">=</span> Area_total <span class="op">/</span> N_steps</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Parámetros Mecánicos</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    RPM <span class="op">=</span> <span class="fl">300.0</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    Tip_Speed <span class="op">=</span> (RPM <span class="op">*</span> np.pi <span class="op">*</span> D) <span class="op">/</span> <span class="fl">60.0</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    Film_Thickness <span class="op">=</span> <span class="fl">0.001</span> <span class="co"># 1 mm</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Condiciones Operativas</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    P_op_bar <span class="op">=</span> <span class="fl">0.05</span>      <span class="co"># 50 mbar (Alto Vacío)</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    P_op_Pa <span class="op">=</span> bar_to_Pa(P_op_bar)</span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    T_wall_C <span class="op">=</span> <span class="fl">180.0</span>     <span class="co"># Temperatura Aceite Térmico</span></span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    T_wall_K <span class="op">=</span> C_to_K(T_wall_C)</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Coeficientes Base</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    U_ref <span class="op">=</span> <span class="fl">1200.0</span>      </span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    mu_ref <span class="op">=</span> <span class="fl">0.0005</span>     </span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    exponent_n <span class="op">=</span> <span class="fl">0.25</span>   </span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="co"># --- 2. DEFINICIÓN DE COMPONENTES ---</span></span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Mezcla: Metanol + DBE (Dimetil Adipato) + Biodiésel</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> biodiesel_type <span class="op">==</span> <span class="st">'sunflower'</span>:</span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>        bio_comp <span class="op">=</span> <span class="st">'methyl linoleate'</span></span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"Girasol (Linoleico)"</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> biodiesel_type <span class="op">==</span> <span class="st">'palm'</span>:</span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>        bio_comp <span class="op">=</span> <span class="st">'methyl palmitate'</span></span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"Palma (Palmítico)"</span></span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>        bio_comp <span class="op">=</span> <span class="st">'methyl oleate'</span></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"Genérico (Oleico)"</span></span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    comps <span class="op">=</span> [<span class="st">'methanol'</span>, <span class="st">'dimethyl adipate'</span>, bio_comp]</span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Alimentación (Feed)</span></span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>    m_dot_feed <span class="op">=</span> <span class="fl">500.0</span> <span class="op">/</span> <span class="fl">3600.0</span>  <span class="co"># kg/s</span></span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    ws_feed <span class="op">=</span> [<span class="fl">0.05</span>, <span class="fl">0.45</span>, <span class="fl">0.50</span>] <span class="co"># 5% Ligero, 45% DBE, 50% Biodiésel</span></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    T_feed_C <span class="op">=</span> <span class="fl">60.0</span></span>
-<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Inicialización</span></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    m_comps <span class="op">=</span> [m_dot_feed <span class="op">*</span> w <span class="cf">for</span> w <span class="kw">in</span> ws_feed]</span>
-<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    T_curr_K <span class="op">=</span> C_to_K(T_feed_C)</span>
-<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Almacenamiento de datos</span></span>
-<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> {</span>
-<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>        <span class="st">'len'</span>: [], <span class="st">'temp'</span>: [], <span class="st">'visc'</span>: [], <span class="st">'power'</span>: [],</span>
-<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>        <span class="st">'w_meoh'</span>: [], <span class="st">'w_dbe'</span>: [], <span class="st">'w_bio'</span>: [], <span class="st">'U'</span>: []</span>
-<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>    cumulative_power <span class="op">=</span> <span class="fl">0.0</span></span>
-<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>    <span class="co"># --- 3. BUCLE DE CÁLCULO ---</span></span>
-<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(N_steps):</span>
-<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>        m_liq_total <span class="op">=</span> <span class="bu">sum</span>(m_comps)</span>
-<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> m_liq_total <span class="op">&lt;=</span> <span class="fl">1e-6</span>: <span class="cf">break</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>        ws_curr <span class="op">=</span> [m <span class="op">/</span> m_liq_total <span class="cf">for</span> m <span class="kw">in</span> m_comps]</span>
-<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
-<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Termodinámica</span></span>
-<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>            mix <span class="op">=</span> Mixture(comps, ws<span class="op">=</span>ws_curr, T<span class="op">=</span>T_curr_K, P<span class="op">=</span>P_op_Pa)</span>
-<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>            mu_liq <span class="op">=</span> mix.mul <span class="cf">if</span> mix.mul <span class="cf">else</span> mu_ref</span>
-<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Equilibrio de Fases</span></span>
-<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>            phase_eq <span class="op">=</span> mix.flash(P<span class="op">=</span>P_op_Pa, T<span class="op">=</span>mix.bubble_point_at_P(P_op_Pa).T)</span>
-<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>            T_boiling_K <span class="op">=</span> phase_eq.T</span>
-<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Propiedades Vapor y Líquido</span></span>
-<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>            ys_vap <span class="op">=</span> phase_eq.y</span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>            MWs <span class="op">=</span> mix.MWs</span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>            MW_avg_vap <span class="op">=</span> <span class="bu">sum</span>(y<span class="op">*</span>mw <span class="cf">for</span> y, mw <span class="kw">in</span> <span class="bu">zip</span>(ys_vap, MWs))</span>
-<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>            ws_vap <span class="op">=</span> [(y<span class="op">*</span>mw)<span class="op">/</span>MW_avg_vap <span class="cf">for</span> y, mw <span class="kw">in</span> <span class="bu">zip</span>(ys_vap, MWs)]</span>
-<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>            H_vap_mix <span class="op">=</span> mix.Hvapm <span class="op">/</span> (mix.MW <span class="op">/</span> <span class="fl">1000.0</span>)</span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>            Cp_liq <span class="op">=</span> mix.Cplm <span class="op">/</span> (mix.MW <span class="op">/</span> <span class="fl">1000.0</span>)</span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span> <span class="pp">Exception</span> <span class="im">as</span> e:</span>
-<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
-<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Potencia Mecánica</span></span>
-<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>        shear_rate <span class="op">=</span> (Tip_Speed<span class="op">**</span><span class="dv">2</span>) <span class="op">/</span> Film_Thickness</span>
-<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>        Power_segment <span class="op">=</span> mu_liq <span class="op">*</span> dA <span class="op">*</span> shear_rate</span>
-<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>        cumulative_power <span class="op">+=</span> Power_segment</span>
-<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Transferencia de Calor (U variable)</span></span>
-<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>        ratio <span class="op">=</span> mu_ref <span class="op">/</span> mu_liq</span>
-<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>        U_local <span class="op">=</span> U_ref <span class="op">*</span> (ratio <span class="op">**</span> exponent_n)</span>
-<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>        U_local <span class="op">=</span> np.clip(U_local, <span class="fl">150.0</span>, <span class="fl">2500.0</span>)</span>
-<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a>        </span>
-<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a>        Q_watts <span class="op">=</span> U_local <span class="op">*</span> dA <span class="op">*</span> (T_wall_K <span class="op">-</span> T_curr_K)</span>
-<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Balances</span></span>
-<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>        m_evap <span class="op">=</span> <span class="fl">0.0</span></span>
-<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> T_curr_K <span class="op">&lt;</span> T_boiling_K:</span>
-<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>            dT <span class="op">=</span> Q_watts <span class="op">/</span> (m_liq_total <span class="op">*</span> Cp_liq)</span>
-<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>            T_curr_K <span class="op">+=</span> dT</span>
-<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> T_curr_K <span class="op">&gt;</span> T_boiling_K: T_curr_K <span class="op">=</span> T_boiling_K</span>
-<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
-<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a>            m_evap <span class="op">=</span> Q_watts <span class="op">/</span> H_vap_mix</span>
-<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> m_evap <span class="op">&gt;</span> m_liq_total: m_evap <span class="op">=</span> m_liq_total</span>
-<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> k <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(comps)):</span>
-<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>                m_comps[k] <span class="op">-=</span> m_evap <span class="op">*</span> ws_vap[k]</span>
-<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> m_comps[k] <span class="op">&lt;</span> <span class="dv">0</span>: m_comps[k] <span class="op">=</span> <span class="fl">0.0</span></span>
-<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Guardar</span></span>
-<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'len'</span>].append(i <span class="op">*</span> (L<span class="op">/</span>N_steps))</span>
-<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'temp'</span>].append(K_to_C(T_curr_K))</span>
-<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'visc'</span>].append(mu_liq <span class="op">*</span> <span class="dv">1000</span>) <span class="co"># cP</span></span>
-<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'power'</span>].append(Power_segment)</span>
-<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'w_meoh'</span>].append(ws_curr[<span class="dv">0</span>])</span>
-<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'w_dbe'</span>].append(ws_curr[<span class="dv">1</span>])</span>
-<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'w_bio'</span>].append(ws_curr[<span class="dv">2</span>])</span>
-<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'U'</span>].append(U_local)</span>
-<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> results, label, cumulative_power</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section>
-<section id="resultados-y-análisis-comparativo" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> 4. Resultados y Análisis Comparativo</h1>
-<p>Ejecutamos la simulación para los dos casos de estudio: <strong>Girasol</strong> y <strong>Palma</strong>.</p>
-<div id="run-simulations" class="cell" data-execution_count="3">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>res_sun, label_sun, pow_sun <span class="op">=</span> simular_atfe(<span class="st">'sunflower'</span>)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>res_palm, label_palm, pow_palm <span class="op">=</span> simular_atfe(<span class="st">'palm'</span>)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Potencia Total Rotor (</span><span class="sc">{</span>label_sun<span class="sc">}</span><span class="ss">): </span><span class="sc">{</span>pow_sun<span class="op">/</span><span class="dv">1000</span><span class="sc">:.3f}</span><span class="ss"> kW"</span>)</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Potencia Total Rotor (</span><span class="sc">{</span>label_palm<span class="sc">}</span><span class="ss">): </span><span class="sc">{</span>pow_palm<span class="op">/</span><span class="dv">1000</span><span class="sc">:.3f}</span><span class="ss"> kW"</span>)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<div id="7dca307a" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -*- coding: utf-8 -*-</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># ===== Utilidades de unidades =====</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> bar_to_Pa(bar): </span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> bar <span class="op">*</span> <span class="fl">1e5</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> C_to_K(C):</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> C <span class="op">+</span> <span class="fl">273.15</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> K_to_C(K):</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> K <span class="op">-</span> <span class="fl">273.15</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># ===== Termodinámica (opcional con 'thermo') =====</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="im">from</span> thermo <span class="im">import</span> Mixture</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    HAS_THERMO <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span> <span class="pp">Exception</span>:</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    HAS_THERMO <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> _safe_normalize(x):</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> np.asarray(x, dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    s <span class="op">=</span> x.<span class="bu">sum</span>()</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> np.isfinite(s) <span class="kw">or</span> s <span class="op">&lt;=</span> <span class="dv">0</span>:</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>        <span class="co"># fallback razonable para 3 componentes</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> np.array([<span class="fl">1.0</span>, <span class="fl">0.0</span>, <span class="fl">0.0</span>])[:<span class="bu">len</span>(x)]</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x <span class="op">/</span> s</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simular_atfe(biodiesel_type<span class="op">=</span><span class="st">'sunflower'</span>):</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="co"># --- 1. PARÁMETROS DE DISEÑO ---</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    L <span class="op">=</span> <span class="fl">3.0</span>             <span class="co"># m (longitud)</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    D <span class="op">=</span> <span class="fl">0.5</span>             <span class="co"># m (diámetro)</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    Area_total <span class="op">=</span> np.pi <span class="op">*</span> D <span class="op">*</span> L</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    N_steps <span class="op">=</span> <span class="dv">50</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>    dA <span class="op">=</span> Area_total <span class="op">/</span> <span class="bu">max</span>(N_steps, <span class="dv">1</span>)</span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Parámetros Mecánicos</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    RPM <span class="op">=</span> <span class="fl">300.0</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>    Tip_Speed <span class="op">=</span> (RPM <span class="op">*</span> np.pi <span class="op">*</span> D) <span class="op">/</span> <span class="fl">60.0</span>    <span class="co"># m/s</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    Film_Thickness <span class="op">=</span> <span class="fl">0.001</span>                  <span class="co"># m (1 mm)</span></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Condiciones Operativas</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    P_op_bar <span class="op">=</span> <span class="fl">0.05</span>                         <span class="co"># 50 mbar (alto vacío)</span></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    P_op_Pa <span class="op">=</span> bar_to_Pa(P_op_bar)           <span class="co"># Pa</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    T_wall_C <span class="op">=</span> <span class="fl">180.0</span>                        <span class="co"># °C (aceite térmico)</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>    T_wall_K <span class="op">=</span> C_to_K(T_wall_C)</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Coeficientes Base</span></span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>    U_ref <span class="op">=</span> <span class="fl">1200.0</span>      <span class="co"># W/m2-K</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>    mu_ref <span class="op">=</span> <span class="fl">0.0005</span>     <span class="co"># Pa·s</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>    exponent_n <span class="op">=</span> <span class="fl">0.25</span>   <span class="co"># exponente variación U con viscosidad</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>    <span class="co"># --- 2. COMPONENTES ---</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> biodiesel_type <span class="op">==</span> <span class="st">'sunflower'</span>:</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>        bio_comp <span class="op">=</span> <span class="st">'methyl linoleate'</span></span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"Girasol (Linoleico)"</span></span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> biodiesel_type <span class="op">==</span> <span class="st">'palm'</span>:</span>
+<span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a>        bio_comp <span class="op">=</span> <span class="st">'methyl palmitate'</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"Palma (Palmítico)"</span></span>
+<span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a>        bio_comp <span class="op">=</span> <span class="st">'methyl oleate'</span></span>
+<span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a>        label <span class="op">=</span> <span class="st">"Genérico (Oleico)"</span></span>
+<span id="cb2-64"><a href="#cb2-64" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb2-65"><a href="#cb2-65" aria-hidden="true" tabindex="-1"></a>    comps <span class="op">=</span> [<span class="st">'methanol'</span>, <span class="st">'dimethyl adipate'</span>, bio_comp]</span>
+<span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Alimentación</span></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>    m_dot_feed <span class="op">=</span> <span class="fl">500.0</span> <span class="op">/</span> <span class="fl">3600.0</span>  <span class="co"># kg/s</span></span>
+<span id="cb2-69"><a href="#cb2-69" aria-hidden="true" tabindex="-1"></a>    ws_feed <span class="op">=</span> [<span class="fl">0.05</span>, <span class="fl">0.45</span>, <span class="fl">0.50</span>] <span class="co"># fracciones másicas</span></span>
+<span id="cb2-70"><a href="#cb2-70" aria-hidden="true" tabindex="-1"></a>    T_feed_C <span class="op">=</span> <span class="fl">60.0</span></span>
+<span id="cb2-71"><a href="#cb2-71" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-72"><a href="#cb2-72" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Inicialización</span></span>
+<span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a>    m_comps <span class="op">=</span> [m_dot_feed <span class="op">*</span> w <span class="cf">for</span> w <span class="kw">in</span> ws_feed]   <span class="co"># kg/s por componente</span></span>
+<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a>    T_curr_K <span class="op">=</span> C_to_K(T_feed_C)</span>
+<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Almacenamiento</span></span>
+<span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> {</span>
+<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>        <span class="st">'len'</span>: [], <span class="st">'temp'</span>: [], <span class="st">'visc'</span>: [], <span class="st">'power'</span>: [],</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>        <span class="st">'w_meoh'</span>: [], <span class="st">'w_dbe'</span>: [], <span class="st">'w_bio'</span>: [], <span class="st">'U'</span>: [],</span>
+<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>        <span class="st">'m_evap_seg'</span>: [],            <span class="co"># kg/s evaporado en ese segmento</span></span>
+<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>        <span class="st">'power_cum'</span>: []              <span class="co"># W acumulada hasta ese segmento</span></span>
+<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a>    cumulative_power <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a>    <span class="co"># --- 3. BUCLE ---</span></span>
+<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(N_steps):</span>
+<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a>        m_liq_total <span class="op">=</span> <span class="bu">sum</span>(m_comps)</span>
+<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> np.isfinite(m_liq_total) <span class="kw">or</span> m_liq_total <span class="op">&lt;=</span> <span class="fl">1e-12</span>:</span>
+<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Líquido agotado</span></span>
+<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a>        ws_curr <span class="op">=</span> [m <span class="op">/</span> m_liq_total <span class="cf">for</span> m <span class="kw">in</span> m_comps]</span>
+<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a>        ws_curr <span class="op">=</span> _safe_normalize(ws_curr).tolist()</span>
+<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a>        <span class="co"># ---- Termodinámica / Propiedades ----</span></span>
+<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Respaldos (para que siempre corra y grafique)</span></span>
+<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>        mu_liq <span class="op">=</span> mu_ref</span>
+<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>        Tb_meoh <span class="op">=</span> C_to_K(<span class="dv">30</span>)</span>
+<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a>        Tb_dbe  <span class="op">=</span> C_to_K(<span class="dv">150</span>)</span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>        Tb_bio  <span class="op">=</span> C_to_K(<span class="dv">230</span>)</span>
+<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a>        T_boiling_K <span class="op">=</span> ws_curr[<span class="dv">0</span>]<span class="op">*</span>Tb_meoh <span class="op">+</span> ws_curr[<span class="dv">1</span>]<span class="op">*</span>Tb_dbe <span class="op">+</span> ws_curr[<span class="dv">2</span>]<span class="op">*</span>Tb_bio</span>
+<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>        ws_vap <span class="op">=</span> _safe_normalize([<span class="fl">0.8</span>, <span class="fl">0.2</span>, <span class="fl">0.0</span>])  <span class="co"># volatilidad aproximada</span></span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a>        H_vap_mix <span class="op">=</span> <span class="fl">6.0e5</span>     <span class="co"># J/kg</span></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a>        Cp_liq    <span class="op">=</span> <span class="fl">2000.0</span>    <span class="co"># J/kg-K</span></span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Intento con 'thermo'</span></span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> HAS_THERMO:</span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a>            <span class="cf">try</span>:</span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a>                mix <span class="op">=</span> Mixture(comps, ws<span class="op">=</span>ws_curr, T<span class="op">=</span>T_curr_K, P<span class="op">=</span>P_op_Pa)</span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="bu">getattr</span>(mix, <span class="st">'mul'</span>, <span class="va">None</span>):</span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a>                    mu_liq <span class="op">=</span> mix.mul</span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a>                <span class="cf">try</span>:</span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a>                    bp <span class="op">=</span> mix.bubble_point_at_P(P_op_Pa)</span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> <span class="bu">getattr</span>(bp, <span class="st">'T'</span>, <span class="va">None</span>):</span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>                        T_boiling_K <span class="op">=</span> <span class="bu">float</span>(bp.T)</span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a>                <span class="cf">except</span> <span class="pp">Exception</span>:</span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">pass</span></span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a>                <span class="cf">try</span>:</span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a>                    phase_eq <span class="op">=</span> mix.flash(P<span class="op">=</span>P_op_Pa, T<span class="op">=</span>T_boiling_K)</span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a>                    ys_vap <span class="op">=</span> np.asarray(phase_eq.y, dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a>                    MWs <span class="op">=</span> np.asarray(mix.MWs, dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a>                    MW_avg_vap <span class="op">=</span> <span class="bu">float</span>((ys_vap <span class="op">*</span> MWs).<span class="bu">sum</span>())</span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">if</span> MW_avg_vap <span class="op">&gt;</span> <span class="dv">0</span> <span class="kw">and</span> np.isfinite(MW_avg_vap):</span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a>                        ws_vap <span class="op">=</span> _safe_normalize((ys_vap <span class="op">*</span> MWs) <span class="op">/</span> MW_avg_vap)</span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a>                <span class="cf">except</span> <span class="pp">Exception</span>:</span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">pass</span></span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="bu">getattr</span>(mix, <span class="st">'Hvapm'</span>, <span class="va">None</span>) <span class="kw">and</span> <span class="bu">getattr</span>(mix, <span class="st">'MW'</span>, <span class="va">None</span>):</span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a>                    H_vap_mix <span class="op">=</span> mix.Hvapm <span class="op">/</span> (mix.MW <span class="op">/</span> <span class="fl">1000.0</span>)</span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="bu">getattr</span>(mix, <span class="st">'Cplm'</span>, <span class="va">None</span>) <span class="kw">and</span> <span class="bu">getattr</span>(mix, <span class="st">'MW'</span>, <span class="va">None</span>):</span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a>                    Cp_liq <span class="op">=</span> mix.Cplm <span class="op">/</span> (mix.MW <span class="op">/</span> <span class="fl">1000.0</span>)</span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a>            <span class="cf">except</span> <span class="pp">Exception</span>:</span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a>                <span class="cf">pass</span></span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Sanitizar propiedades</span></span>
+<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> np.isfinite(mu_liq) <span class="kw">or</span> mu_liq <span class="op">&lt;=</span> <span class="fl">1e-12</span>:</span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a>            mu_liq <span class="op">=</span> mu_ref</span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> np.isfinite(Cp_liq) <span class="kw">or</span> Cp_liq <span class="op">&lt;</span> <span class="fl">100.0</span>:</span>
+<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a>            Cp_liq <span class="op">=</span> <span class="fl">2000.0</span></span>
+<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> np.isfinite(H_vap_mix) <span class="kw">or</span> H_vap_mix <span class="op">&lt;</span> <span class="fl">1e4</span>:</span>
+<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a>            H_vap_mix <span class="op">=</span> <span class="fl">6e5</span></span>
+<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-146"><a href="#cb2-146" aria-hidden="true" tabindex="-1"></a>        <span class="co"># ---- Potencia mecánica (por segmento) ----</span></span>
+<span id="cb2-147"><a href="#cb2-147" aria-hidden="true" tabindex="-1"></a>        shear_rate <span class="op">=</span> (Tip_Speed<span class="op">**</span><span class="dv">2</span>) <span class="op">/</span> <span class="bu">max</span>(Film_Thickness, <span class="fl">1e-6</span>)</span>
+<span id="cb2-148"><a href="#cb2-148" aria-hidden="true" tabindex="-1"></a>        Power_segment <span class="op">=</span> mu_liq <span class="op">*</span> dA <span class="op">*</span> shear_rate</span>
+<span id="cb2-149"><a href="#cb2-149" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> np.isfinite(Power_segment):</span>
+<span id="cb2-150"><a href="#cb2-150" aria-hidden="true" tabindex="-1"></a>            Power_segment <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb2-151"><a href="#cb2-151" aria-hidden="true" tabindex="-1"></a>        cumulative_power <span class="op">+=</span> Power_segment</span>
+<span id="cb2-152"><a href="#cb2-152" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a>        <span class="co"># ---- Transferencia de calor (U variable) ----</span></span>
+<span id="cb2-154"><a href="#cb2-154" aria-hidden="true" tabindex="-1"></a>        ratio <span class="op">=</span> mu_ref <span class="op">/</span> mu_liq <span class="cf">if</span> mu_liq <span class="op">&gt;</span> <span class="fl">1e-12</span> <span class="cf">else</span> <span class="fl">1.0</span></span>
+<span id="cb2-155"><a href="#cb2-155" aria-hidden="true" tabindex="-1"></a>        U_local <span class="op">=</span> U_ref <span class="op">*</span> (ratio <span class="op">**</span> exponent_n)</span>
+<span id="cb2-156"><a href="#cb2-156" aria-hidden="true" tabindex="-1"></a>        U_local <span class="op">=</span> <span class="bu">float</span>(np.clip(U_local, <span class="fl">150.0</span>, <span class="fl">2500.0</span>))</span>
+<span id="cb2-157"><a href="#cb2-157" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb2-158"><a href="#cb2-158" aria-hidden="true" tabindex="-1"></a>        deltaT <span class="op">=</span> T_wall_K <span class="op">-</span> T_curr_K</span>
+<span id="cb2-159"><a href="#cb2-159" aria-hidden="true" tabindex="-1"></a>        Q_watts <span class="op">=</span> U_local <span class="op">*</span> dA <span class="op">*</span> deltaT</span>
+<span id="cb2-160"><a href="#cb2-160" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> np.isfinite(Q_watts):</span>
+<span id="cb2-161"><a href="#cb2-161" aria-hidden="true" tabindex="-1"></a>            Q_watts <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb2-162"><a href="#cb2-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-163"><a href="#cb2-163" aria-hidden="true" tabindex="-1"></a>        <span class="co"># ---- Balances ----</span></span>
+<span id="cb2-164"><a href="#cb2-164" aria-hidden="true" tabindex="-1"></a>        m_evap <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb2-165"><a href="#cb2-165" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> T_curr_K <span class="op">&lt;</span> T_boiling_K <span class="op">-</span> <span class="fl">1e-6</span>:</span>
+<span id="cb2-166"><a href="#cb2-166" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Calentamiento sensible</span></span>
+<span id="cb2-167"><a href="#cb2-167" aria-hidden="true" tabindex="-1"></a>            dT <span class="op">=</span> Q_watts <span class="op">/</span> <span class="bu">max</span>(m_liq_total <span class="op">*</span> Cp_liq, <span class="fl">1e-9</span>)</span>
+<span id="cb2-168"><a href="#cb2-168" aria-hidden="true" tabindex="-1"></a>            dT <span class="op">=</span> <span class="bu">float</span>(np.clip(dT, <span class="op">-</span><span class="fl">50.0</span>, <span class="fl">50.0</span>))</span>
+<span id="cb2-169"><a href="#cb2-169" aria-hidden="true" tabindex="-1"></a>            T_curr_K <span class="op">=</span> <span class="bu">float</span>(np.clip(T_curr_K <span class="op">+</span> dT, <span class="fl">200.0</span>, <span class="fl">700.0</span>))</span>
+<span id="cb2-170"><a href="#cb2-170" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> T_curr_K <span class="op">&gt;</span> T_boiling_K:</span>
+<span id="cb2-171"><a href="#cb2-171" aria-hidden="true" tabindex="-1"></a>                T_curr_K <span class="op">=</span> T_boiling_K</span>
+<span id="cb2-172"><a href="#cb2-172" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb2-173"><a href="#cb2-173" aria-hidden="true" tabindex="-1"></a>            <span class="co"># Evaporación</span></span>
+<span id="cb2-174"><a href="#cb2-174" aria-hidden="true" tabindex="-1"></a>            m_evap <span class="op">=</span> Q_watts <span class="op">/</span> <span class="bu">max</span>(H_vap_mix, <span class="fl">1.0</span>)   <span class="co"># kg/s evaporado en este segmento</span></span>
+<span id="cb2-175"><a href="#cb2-175" aria-hidden="true" tabindex="-1"></a>            m_evap <span class="op">=</span> <span class="bu">float</span>(np.clip(m_evap, <span class="fl">0.0</span>, m_liq_total))</span>
+<span id="cb2-176"><a href="#cb2-176" aria-hidden="true" tabindex="-1"></a>            ws_vap <span class="op">=</span> _safe_normalize(ws_vap)</span>
+<span id="cb2-177"><a href="#cb2-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-178"><a href="#cb2-178" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> k <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(comps)):</span>
+<span id="cb2-179"><a href="#cb2-179" aria-hidden="true" tabindex="-1"></a>                m_comps[k] <span class="op">-=</span> m_evap <span class="op">*</span> ws_vap[k]</span>
+<span id="cb2-180"><a href="#cb2-180" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> m_comps[k] <span class="op">&lt;</span> <span class="fl">0.0</span> <span class="kw">or</span> <span class="kw">not</span> np.isfinite(m_comps[k]):</span>
+<span id="cb2-181"><a href="#cb2-181" aria-hidden="true" tabindex="-1"></a>                    m_comps[k] <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb2-182"><a href="#cb2-182" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-183"><a href="#cb2-183" aria-hidden="true" tabindex="-1"></a>        <span class="co"># ---- Guardar resultados ----</span></span>
+<span id="cb2-184"><a href="#cb2-184" aria-hidden="true" tabindex="-1"></a>        z <span class="op">=</span> i <span class="op">*</span> (L <span class="op">/</span> <span class="bu">max</span>(N_steps, <span class="dv">1</span>))</span>
+<span id="cb2-185"><a href="#cb2-185" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'len'</span>].append(z)</span>
+<span id="cb2-186"><a href="#cb2-186" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'temp'</span>].append(K_to_C(T_curr_K))</span>
+<span id="cb2-187"><a href="#cb2-187" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'visc'</span>].append(mu_liq <span class="op">*</span> <span class="fl">1000.0</span>)  <span class="co"># cP</span></span>
+<span id="cb2-188"><a href="#cb2-188" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'power'</span>].append(Power_segment)   <span class="co"># W por segmento</span></span>
+<span id="cb2-189"><a href="#cb2-189" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'w_meoh'</span>].append(ws_curr[<span class="dv">0</span>] <span class="cf">if</span> <span class="bu">len</span>(ws_curr)<span class="op">&gt;</span><span class="dv">0</span> <span class="cf">else</span> <span class="fl">0.0</span>)</span>
+<span id="cb2-190"><a href="#cb2-190" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'w_dbe'</span>].append(ws_curr[<span class="dv">1</span>] <span class="cf">if</span> <span class="bu">len</span>(ws_curr)<span class="op">&gt;</span><span class="dv">1</span> <span class="cf">else</span> <span class="fl">0.0</span>)</span>
+<span id="cb2-191"><a href="#cb2-191" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'w_bio'</span>].append(ws_curr[<span class="dv">2</span>] <span class="cf">if</span> <span class="bu">len</span>(ws_curr)<span class="op">&gt;</span><span class="dv">2</span> <span class="cf">else</span> <span class="fl">0.0</span>)</span>
+<span id="cb2-192"><a href="#cb2-192" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'U'</span>].append(U_local)</span>
+<span id="cb2-193"><a href="#cb2-193" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'m_evap_seg'</span>].append(m_evap)     <span class="co"># kg/s</span></span>
+<span id="cb2-194"><a href="#cb2-194" aria-hidden="true" tabindex="-1"></a>        results[<span class="st">'power_cum'</span>].append(cumulative_power)  <span class="co"># W acumulada</span></span>
+<span id="cb2-195"><a href="#cb2-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-196"><a href="#cb2-196" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> results, label, cumulative_power</span>
+<span id="cb2-197"><a href="#cb2-197" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-198"><a href="#cb2-198" aria-hidden="true" tabindex="-1"></a><span class="co"># ===== Gráficas =====</span></span>
+<span id="cb2-199"><a href="#cb2-199" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_resultados(results, label, potencia_total):</span>
+<span id="cb2-200"><a href="#cb2-200" aria-hidden="true" tabindex="-1"></a>    z <span class="op">=</span> np.asarray(results[<span class="st">'len'</span>], dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb2-201"><a href="#cb2-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-202"><a href="#cb2-202" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Depuración rápida</span></span>
+<span id="cb2-203"><a href="#cb2-203" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"[DEBUG] </span><span class="sc">{</span>label<span class="sc">}</span><span class="ss"> -&gt; puntos: </span><span class="sc">{</span><span class="bu">len</span>(z)<span class="sc">}</span><span class="ss"> | z_min=</span><span class="sc">{</span>np<span class="sc">.</span>nanmin(z) <span class="cf">if</span> <span class="bu">len</span>(z)<span class="op">&gt;</span><span class="dv">0</span> <span class="cf">else</span> <span class="st">'—'</span><span class="sc">}</span><span class="ss"> z_max=</span><span class="sc">{</span>np<span class="sc">.</span>nanmax(z) <span class="cf">if</span> <span class="bu">len</span>(z)<span class="op">&gt;</span><span class="dv">0</span> <span class="cf">else</span> <span class="st">'—'</span><span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-204"><a href="#cb2-204" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> key <span class="kw">in</span> [<span class="st">'temp'</span>,<span class="st">'visc'</span>,<span class="st">'w_meoh'</span>,<span class="st">'w_dbe'</span>,<span class="st">'w_bio'</span>,<span class="st">'U'</span>,<span class="st">'m_evap_seg'</span>,<span class="st">'power_cum'</span>,<span class="st">'power'</span>]:</span>
+<span id="cb2-205"><a href="#cb2-205" aria-hidden="true" tabindex="-1"></a>        arr <span class="op">=</span> np.asarray(results.get(key, []), dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb2-206"><a href="#cb2-206" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"[DEBUG] serie </span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">: n=</span><span class="sc">{</span>arr<span class="sc">.</span>size<span class="sc">}</span><span class="ss">, NaN=</span><span class="sc">{</span>np<span class="sc">.</span>isnan(arr)<span class="sc">.</span><span class="bu">sum</span>()<span class="sc">}</span><span class="ss">, min=</span><span class="sc">{</span>np<span class="sc">.</span>nanmin(arr) <span class="cf">if</span> arr<span class="sc">.</span>size <span class="cf">else</span> <span class="st">'—'</span><span class="sc">}</span><span class="ss">, max=</span><span class="sc">{</span>np<span class="sc">.</span>nanmax(arr) <span class="cf">if</span> arr<span class="sc">.</span>size <span class="cf">else</span> <span class="st">'—'</span><span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-207"><a href="#cb2-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-208"><a href="#cb2-208" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="bu">len</span>(z) <span class="op">&lt;</span> <span class="dv">2</span>:</span>
+<span id="cb2-209"><a href="#cb2-209" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f"[ADVERTENCIA] Solo </span><span class="sc">{</span><span class="bu">len</span>(z)<span class="sc">}</span><span class="ss"> puntos para </span><span class="sc">{</span>label<span class="sc">}</span><span class="ss">. El gráfico puede verse vacío."</span>)</span>
+<span id="cb2-210"><a href="#cb2-210" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-211"><a href="#cb2-211" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">10</span>))</span>
+<span id="cb2-212"><a href="#cb2-212" aria-hidden="true" tabindex="-1"></a>    mstyle <span class="op">=</span> {<span class="st">'lw'</span>:<span class="dv">2</span>, <span class="st">'marker'</span>:<span class="st">'o'</span>, <span class="st">'markersize'</span>:<span class="dv">3</span>, <span class="st">'alpha'</span>:<span class="fl">0.9</span>}</span>
+<span id="cb2-213"><a href="#cb2-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-214"><a href="#cb2-214" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 1) Temperatura</span></span>
+<span id="cb2-215"><a href="#cb2-215" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">1</span>)</span>
+<span id="cb2-216"><a href="#cb2-216" aria-hidden="true" tabindex="-1"></a>    plt.plot(z, results[<span class="st">'temp'</span>], <span class="st">'r-'</span>, <span class="op">**</span>mstyle)</span>
+<span id="cb2-217"><a href="#cb2-217" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f'Temperatura del líquido (</span><span class="sc">{</span>label<span class="sc">}</span><span class="ss">)'</span>)</span>
+<span id="cb2-218"><a href="#cb2-218" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Longitud axial, z (m)'</span>)</span>
+<span id="cb2-219"><a href="#cb2-219" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'T (°C)'</span>)</span>
+<span id="cb2-220"><a href="#cb2-220" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb2-221"><a href="#cb2-221" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-222"><a href="#cb2-222" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 2) Viscosidad</span></span>
+<span id="cb2-223"><a href="#cb2-223" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">2</span>)</span>
+<span id="cb2-224"><a href="#cb2-224" aria-hidden="true" tabindex="-1"></a>    plt.plot(z, results[<span class="st">'visc'</span>], <span class="st">'b-'</span>, <span class="op">**</span>mstyle)</span>
+<span id="cb2-225"><a href="#cb2-225" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">'Viscosidad del líquido'</span>)</span>
+<span id="cb2-226"><a href="#cb2-226" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Longitud axial, z (m)'</span>)</span>
+<span id="cb2-227"><a href="#cb2-227" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'μ (cP)'</span>)</span>
+<span id="cb2-228"><a href="#cb2-228" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb2-229"><a href="#cb2-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-230"><a href="#cb2-230" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 3) Fracciones másicas</span></span>
+<span id="cb2-231"><a href="#cb2-231" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">3</span>)</span>
+<span id="cb2-232"><a href="#cb2-232" aria-hidden="true" tabindex="-1"></a>    plt.plot(z, results[<span class="st">'w_meoh'</span>], label<span class="op">=</span><span class="st">'MeOH'</span>, <span class="op">**</span>mstyle)</span>
+<span id="cb2-233"><a href="#cb2-233" aria-hidden="true" tabindex="-1"></a>    plt.plot(z, results[<span class="st">'w_dbe'</span>],  label<span class="op">=</span><span class="st">'DBE'</span>,  <span class="op">**</span>mstyle)</span>
+<span id="cb2-234"><a href="#cb2-234" aria-hidden="true" tabindex="-1"></a>    plt.plot(z, results[<span class="st">'w_bio'</span>],  label<span class="op">=</span><span class="st">'Biodiésel'</span>, <span class="op">**</span>mstyle)</span>
+<span id="cb2-235"><a href="#cb2-235" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">'Fracciones másicas en líquido'</span>)</span>
+<span id="cb2-236"><a href="#cb2-236" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Longitud axial, z (m)'</span>)</span>
+<span id="cb2-237"><a href="#cb2-237" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'w (-)'</span>)</span>
+<span id="cb2-238"><a href="#cb2-238" aria-hidden="true" tabindex="-1"></a>    plt.legend()</span>
+<span id="cb2-239"><a href="#cb2-239" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb2-240"><a href="#cb2-240" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-241"><a href="#cb2-241" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 4) Coeficiente global U</span></span>
+<span id="cb2-242"><a href="#cb2-242" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">4</span>)</span>
+<span id="cb2-243"><a href="#cb2-243" aria-hidden="true" tabindex="-1"></a>    plt.plot(z, results[<span class="st">'U'</span>], <span class="st">'g-'</span>, <span class="op">**</span>mstyle)</span>
+<span id="cb2-244"><a href="#cb2-244" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">'Coeficiente global U'</span>)</span>
+<span id="cb2-245"><a href="#cb2-245" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Longitud axial, z (m)'</span>)</span>
+<span id="cb2-246"><a href="#cb2-246" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'U (W/m²·K)'</span>)</span>
+<span id="cb2-247"><a href="#cb2-247" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb2-248"><a href="#cb2-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-249"><a href="#cb2-249" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 5) Potencia acumulada</span></span>
+<span id="cb2-250"><a href="#cb2-250" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">5</span>)</span>
+<span id="cb2-251"><a href="#cb2-251" aria-hidden="true" tabindex="-1"></a>    power_cum_kw <span class="op">=</span> np.asarray(results[<span class="st">'power_cum'</span>], dtype<span class="op">=</span><span class="bu">float</span>) <span class="op">/</span> <span class="fl">1000.0</span></span>
+<span id="cb2-252"><a href="#cb2-252" aria-hidden="true" tabindex="-1"></a>    plt.plot(z, power_cum_kw, <span class="st">'m-'</span>, <span class="op">**</span>mstyle)</span>
+<span id="cb2-253"><a href="#cb2-253" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">'Potencia acumulada del rotor'</span>)</span>
+<span id="cb2-254"><a href="#cb2-254" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Longitud axial, z (m)'</span>)</span>
+<span id="cb2-255"><a href="#cb2-255" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'Potencia acumulada (kW)'</span>)</span>
+<span id="cb2-256"><a href="#cb2-256" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>)</span>
+<span id="cb2-257"><a href="#cb2-257" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-258"><a href="#cb2-258" aria-hidden="true" tabindex="-1"></a>    <span class="co"># 6) Caudal evaporado por segmento</span></span>
+<span id="cb2-259"><a href="#cb2-259" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">3</span>,<span class="dv">2</span>,<span class="dv">6</span>)</span>
+<span id="cb2-260"><a href="#cb2-260" aria-hidden="true" tabindex="-1"></a>    m_evap_seg <span class="op">=</span> np.asarray(results[<span class="st">'m_evap_seg'</span>], dtype<span class="op">=</span><span class="bu">float</span>)</span>
+<span id="cb2-261"><a href="#cb2-261" aria-hidden="true" tabindex="-1"></a>    plt.bar(z, m_evap_seg, width<span class="op">=</span>(z[<span class="dv">1</span>]<span class="op">-</span>z[<span class="dv">0</span>] <span class="cf">if</span> <span class="bu">len</span>(z)<span class="op">&gt;</span><span class="dv">1</span> <span class="cf">else</span> <span class="fl">0.05</span>), color<span class="op">=</span><span class="st">'#1f77b4'</span>, alpha<span class="op">=</span><span class="fl">0.7</span>, edgecolor<span class="op">=</span><span class="st">'k'</span>)</span>
+<span id="cb2-262"><a href="#cb2-262" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="st">'Caudal evaporado por segmento'</span>)</span>
+<span id="cb2-263"><a href="#cb2-263" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">'Longitud axial, z (m)'</span>)</span>
+<span id="cb2-264"><a href="#cb2-264" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">'m_evap,seg (kg/s)'</span>)</span>
+<span id="cb2-265"><a href="#cb2-265" aria-hidden="true" tabindex="-1"></a>    plt.grid(<span class="va">True</span>, axis<span class="op">=</span><span class="st">'y'</span>)</span>
+<span id="cb2-266"><a href="#cb2-266" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-267"><a href="#cb2-267" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb2-268"><a href="#cb2-268" aria-hidden="true" tabindex="-1"></a>    plt.suptitle(<span class="ss">f'ATFE – </span><span class="sc">{</span>label<span class="sc">}</span><span class="ss"> | Potencia total rotor: </span><span class="sc">{</span>potencia_total<span class="op">/</span><span class="fl">1000.0</span><span class="sc">:.3f}</span><span class="ss"> kW'</span>, y<span class="op">=</span><span class="fl">1.02</span>, fontsize<span class="op">=</span><span class="dv">13</span>)</span>
+<span id="cb2-269"><a href="#cb2-269" aria-hidden="true" tabindex="-1"></a>    plt.show()</span>
+<span id="cb2-270"><a href="#cb2-270" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-271"><a href="#cb2-271" aria-hidden="true" tabindex="-1"></a><span class="co"># ===== Ejecución de ejemplo =====</span></span>
+<span id="cb2-272"><a href="#cb2-272" aria-hidden="true" tabindex="-1"></a>res_sun, label_sun, pow_sun <span class="op">=</span> simular_atfe(<span class="st">'sunflower'</span>)</span>
+<span id="cb2-273"><a href="#cb2-273" aria-hidden="true" tabindex="-1"></a>res_palm, label_palm, pow_palm <span class="op">=</span> simular_atfe(<span class="st">'palm'</span>)</span>
+<span id="cb2-274"><a href="#cb2-274" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-275"><a href="#cb2-275" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Potencia Total Rotor (</span><span class="sc">{</span>label_sun<span class="sc">}</span><span class="ss">): </span><span class="sc">{</span>pow_sun<span class="op">/</span><span class="dv">1000</span><span class="sc">:.3f}</span><span class="ss"> kW"</span>)</span>
+<span id="cb2-276"><a href="#cb2-276" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"Potencia Total Rotor (</span><span class="sc">{</span>label_palm<span class="sc">}</span><span class="ss">): </span><span class="sc">{</span>pow_palm<span class="op">/</span><span class="dv">1000</span><span class="sc">:.3f}</span><span class="ss"> kW"</span>)</span>
+<span id="cb2-277"><a href="#cb2-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-278"><a href="#cb2-278" aria-hidden="true" tabindex="-1"></a>plot_resultados(res_sun, label_sun, pow_sun)</span>
+<span id="cb2-279"><a href="#cb2-279" aria-hidden="true" tabindex="-1"></a>plot_resultados(res_palm, label_palm, pow_palm)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Potencia Total Rotor (Girasol (Linoleico)): 0.000 kW
-Potencia Total Rotor (Palma (Palmítico)): 0.000 kW</code></pre>
+<pre><code>Potencia Total Rotor (Girasol (Linoleico)): 0.176 kW
+Potencia Total Rotor (Palma (Palmítico)): 0.171 kW
+[DEBUG] Girasol (Linoleico) -&gt; puntos: 50 | z_min=0.0 z_max=2.94
+[DEBUG] serie temp: n=50, NaN=0, min=92.86929328678286, max=179.99861740005565
+[DEBUG] serie visc: n=50, NaN=0, min=0.5891983186234098, max=0.9130887335364576
+[DEBUG] serie w_meoh: n=50, NaN=0, min=0.05, max=0.05
+[DEBUG] serie w_dbe: n=50, NaN=0, min=0.44999999999999996, max=0.44999999999999996
+[DEBUG] serie w_bio: n=50, NaN=0, min=0.5, max=0.5
+[DEBUG] serie U: n=50, NaN=0, min=1032.2752175592277, max=1151.7504017702774
+[DEBUG] serie m_evap_seg: n=50, NaN=0, min=0.0, max=0.0
+[DEBUG] serie power_cum: n=50, NaN=0, min=5.308402857317992, max=176.1167531206085
+[DEBUG] serie power: n=50, NaN=0, min=3.425408641275917, max=5.308402857317992</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="reciclado_files/figure-html/cell-3-output-2.png" width="1334" height="984" class="figure-img"></p>
+</figure>
 </div>
 </div>
-<section id="perfil-de-composición-separación" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="perfil-de-composición-separación"><span class="header-section-number">9.1</span> 4.1 Perfil de Composición (Separación)</h2>
+<div class="cell-output cell-output-stdout">
+<pre><code>[DEBUG] Palma (Palmítico) -&gt; puntos: 50 | z_min=0.0 z_max=2.94
+[DEBUG] serie temp: n=50, NaN=0, min=93.40141404550388, max=179.9991246483853
+[DEBUG] serie visc: n=50, NaN=0, min=0.5650620298098442, max=0.9770531122413444
+[DEBUG] serie w_meoh: n=50, NaN=0, min=0.05, max=0.05
+[DEBUG] serie w_dbe: n=50, NaN=0, min=0.44999999999999996, max=0.44999999999999996
+[DEBUG] serie w_bio: n=50, NaN=0, min=0.5, max=0.5
+[DEBUG] serie U: n=50, NaN=0, min=1014.94896263677, max=1163.857248800423
+[DEBUG] serie m_evap_seg: n=50, NaN=0, min=0.0, max=0.0
+[DEBUG] serie power_cum: n=50, NaN=0, min=5.680271086781841, max=170.64043955340958
+[DEBUG] serie power: n=50, NaN=0, min=3.2850880570904724, max=5.680271086781841</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="reciclado_files/figure-html/cell-3-output-4.png" width="1334" height="984" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="perfil-de-composición-separación" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="perfil-de-composición-separación"><span class="header-section-number">5.3.1</span> Perfil de Composición (Separación)</h3>
 <p>Observamos cómo evoluciona la pureza a lo largo del equipo. El metanol se elimina casi instantáneamente. El reto es separar el DBE (azul) del Biodiésel (verde).</p>
-<div id="cell-plot-composition" class="cell" data-execution_count="4">
+<div id="cell-plot-composition" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>plt.plot(res_sun[<span class="st">'len'</span>], res_sun[<span class="st">'w_meoh'</span>], <span class="st">'r:'</span>, label<span class="op">=</span><span class="st">'Metanol'</span>)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>plt.plot(res_sun[<span class="st">'len'</span>], res_sun[<span class="st">'w_dbe'</span>], <span class="st">'b-'</span>, label<span class="op">=</span><span class="st">'DBE (Disolvente)'</span>)</span>
@@ -475,17 +659,17 @@ Potencia Total Rotor (Palma (Palmítico)): 0.000 kW</code></pre>
 <div class="cell-output cell-output-display">
 <div id="plot-composition" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="reciclado_files/figure-html/plot-composition-output-1.png" width="819" height="516" class="figure-img"></p>
+<p><img src="reciclado_files/figure-html/plot-composition-output-1.png" width="804" height="516" class="figure-img"></p>
 <figcaption>Evolución de la composición a lo largo del ATFE</figcaption>
 </figure>
 </div>
 </div>
 </div>
 </section>
-<section id="impacto-de-la-viscosidad-en-la-potencia" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="impacto-de-la-viscosidad-en-la-potencia"><span class="header-section-number">9.2</span> 4.2 Impacto de la Viscosidad en la Potencia</h2>
+<section id="impacto-de-la-viscosidad-en-la-potencia" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="impacto-de-la-viscosidad-en-la-potencia"><span class="header-section-number">5.3.2</span> Impacto de la Viscosidad en la Potencia</h3>
 <p>Comparación crítica entre Girasol y Palma. Se observa cómo el biodiésel de Palma, al ser saturado y más viscoso, exige más potencia al motor, especialmente en la zona de descarga (fondo del equipo).</p>
-<div id="cell-plot-power" class="cell" data-execution_count="5">
+<div id="cell-plot-power" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>plt.plot(res_sun[<span class="st">'len'</span>], res_sun[<span class="st">'power'</span>], <span class="st">'g-'</span>, label<span class="op">=</span><span class="ss">f'</span><span class="sc">{</span>label_sun<span class="sc">}</span><span class="ss">'</span>)</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>plt.plot(res_palm[<span class="st">'len'</span>], res_palm[<span class="st">'power'</span>], <span class="st">'orange'</span>, linewidth<span class="op">=</span><span class="dv">2</span>, label<span class="op">=</span><span class="ss">f'</span><span class="sc">{</span>label_palm<span class="sc">}</span><span class="ss">'</span>)</span>
@@ -499,7 +683,7 @@ Potencia Total Rotor (Palma (Palmítico)): 0.000 kW</code></pre>
 <div class="cell-output cell-output-display">
 <div id="plot-power" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="reciclado_files/figure-html/plot-power-output-1.png" width="819" height="516" class="figure-img"></p>
+<p><img src="reciclado_files/figure-html/plot-power-output-1.png" width="804" height="516" class="figure-img"></p>
 <figcaption>Consumo de Potencia Local vs Longitud</figcaption>
 </figure>
 </div>
@@ -507,8 +691,8 @@ Potencia Total Rotor (Palma (Palmítico)): 0.000 kW</code></pre>
 </div>
 </section>
 </section>
-<section id="conclusiones" class="level1" data-number="10">
-<h1 data-number="10"><span class="header-section-number">10</span> 5. Conclusiones</h1>
+<section id="conclusiones" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="conclusiones"><span class="header-section-number">5.4</span> Conclusiones</h2>
 <p>El modelo computacional permite concluir que:</p>
 <ol type="1">
 <li><strong>Viabilidad Técnica:</strong> El proceso ATFE es capaz de recuperar el disolvente (DBE) separándolo del biodiésel bajo condiciones de vacío (<span class="math inline">\(0.05 \text{ bar}\)</span>), evitando la degradación térmica.</li>

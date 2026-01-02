@@ -1,2 +1,23 @@
-# Prógolo
+---
+title: "Informe AGROSOLVENTS" 
+# optional (omitted in example screenshots); this title appears under your photo
+image: hansen.png 
+#file/path/to/headshot.jpeg # a great spot for your professional headshot :) 
+toc: false # disable table of contents for this page (if applicable)
+navbar: false
+about: 
+  template: jolla
+  image-shape: rectangle
+  image-width: 17em
+#  links: # create buttons
+#    - text: LinkedIn
+#      href: https://www.linkedin.com/in/anxosanchez/ 
+#      target: _blank # opens link in a new browser tab
+#    - text: GitHub
+#      href: https://github.com/anxosanchez 
+#      target: _blank 
+#    - text: Email
+#      href: mailto:asanchez@uvigo.gal
+---
 
+#### Págna de inicio {.unnumbered}
