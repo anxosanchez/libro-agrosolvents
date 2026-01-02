@@ -1,0 +1,171 @@
+Estudio Comparativo de la Síntesis de Biodiésel a partir de Aceite de Palma y Girasol
+
+1. Introducción
+
+En el contexto de una creciente demanda energética global y la necesidad de mitigar el cambio climático, la búsqueda de combustibles alternativos se ha convertido en una prioridad. El biodiésel, definido como el conjunto de ésteres monoalquílicos derivados de aceites vegetales o grasas animales, emerge como una de las opciones más viables y sostenibles. Su carácter renovable, biodegradabilidad y perfil de emisiones reducido lo posicionan como un sustituto directo y complementario del diésel de origen fósil. A nivel mundial, los aceites de palma y girasol constituyen dos de las materias primas vegetales más significativas para su producción. Su relevancia está marcada por una fuerte distribución geográfica: el aceite de palma domina la producción en Asia, mientras que el aceite de girasol es una fuente importante y de creciente interés en Europa [1]. El objetivo de este informe técnico es analizar y comparar en profundidad los métodos de síntesis de metilésteres a partir de estos dos aceites. Se destacarán las diferencias críticas en el proceso, la cinética, la gestión de residuos y la calidad del producto final, enmarcadas en el desafío de ingeniería fundamental que cada uno presenta: la lucha del biodiésel de girasol contra la degradación química (oxidación) y la del biodiésel de palma contra el cambio de fase físico (cristalización). Este análisis permitirá comprender cómo las características intrínsecas de cada materia prima dictan las adaptaciones tecnológicas necesarias, comenzando por los fundamentos químicos que rigen su transformación.
+
+2. Fundamentos de la Síntesis de Biodiésel
+
+Los aceites vegetales crudos no pueden ser utilizados directamente en motores diésel modernos debido principalmente a su alta viscosidad, que es entre 10 y 20 veces superior a la del petrodiésel [2, 3]. Esta elevada viscosidad provoca problemas de atomización en la inyección de combustible, combustión incompleta y la formación de depósitos de carbón en el motor [4]. Para superar estas limitaciones, es necesario un procesamiento químico que reduzca drásticamente su viscosidad. La transesterificación es, con diferencia, el método más extendido y comercialmente viable para lograr esta transformación, convirtiendo los triglicéridos (componentes principales del aceite) en ésteres alquílicos de menor viscosidad, conocidos comúnmente como biodiésel [3, 4].
+
+2.1. El Proceso de Transesterificación
+
+Desde el punto de vista químico, la transesterificación es una reacción en la que los triglicéridos de los aceites reaccionan con un alcohol de cadena corta, generalmente metanol por su bajo coste y reactividad, en presencia de un catalizador. Este proceso produce ésteres metílicos de ácidos grasos (FAME, por sus siglas en inglés), que constituyen el biodiésel, y glicerol como subproducto principal [3, 4, 5].
+
+La reacción global se desarrolla en tres etapas consecutivas y reversibles. Primero, los triglicéridos (TG) se convierten en diglicéridos (DG), liberando una molécula de éster metílico. A continuación, los diglicéridos reaccionan para formar monoglicéridos (MG), liberando una segunda molécula de éster. Finalmente, los monoglicéridos se convierten en glicerol, generando la tercera y última molécula de éster metílico [6].
+
+Para que esta reacción se produzca a una velocidad viable a nivel industrial, es imprescindible la presencia de un catalizador, existiendo diversas vías catalíticas para impulsar el proceso.
+
+2.2. Vías Catalíticas Principales
+
+La elección del catalizador es un factor determinante en el diseño del proceso, los costes de operación y la calidad del producto final. A continuación, se describen los principales enfoques catalíticos:
+
+* Catálisis Homogénea Alcalina: Es el método preferido a escala industrial debido a su alta velocidad de reacción y bajo coste. Utiliza catalizadores como el hidróxido de sodio (NaOH) o el hidróxido de potasio (KOH) disueltos en el alcohol [5]. Su principal inconveniente es la alta sensibilidad al contenido de agua y ácidos grasos libres (AGL) en la materia prima. La presencia de estas impurezas provoca una reacción secundaria indeseada llamada saponificación (formación de jabón), que consume catalizador, reduce el rendimiento del biodiésel y complica significativamente la separación del glicerol [5, 7, 8].
+* Catálisis Homogénea Ácida: Emplea catalizadores como el ácido sulfúrico (H₂SO₄) y es una alternativa eficaz para materias primas con un alto contenido de AGL, ya que cataliza simultáneamente la esterificación de los AGL y la transesterificación de los triglicéridos. Sin embargo, la velocidad de reacción es considerablemente más lenta que la catálisis alcalina y presenta mayores problemas de corrosión en los equipos [3, 7].
+* Catálisis Heterogénea: Utiliza catalizadores sólidos, tanto ácidos como básicos (por ejemplo, óxidos metálicos). Esta vía simplifica la purificación del producto al facilitar la separación del catalizador mediante filtración, permite su reutilización y genera un glicerol de mayor pureza al evitar la formación de sales [1]. No obstante, puede presentar limitaciones por transferencia de masa entre las fases sólida y líquida [4].
+* Catálisis Enzimática: Representa una tecnología limpia y respetuosa con el medio ambiente que utiliza enzimas (lipasas) como catalizadores. Este método es capaz de procesar aceites con altos niveles de AGL y triglicéridos simultáneamente, operando en condiciones suaves de temperatura [9]. Históricamente, sus principales desventajas han sido el elevado coste de las enzimas y los largos tiempos de reacción, aunque la investigación continua busca superar estas barreras [5, 9].
+
+La selección de la vía catalítica está íntimamente ligada a las características de la materia prima. Por ello, un análisis detallado de la composición de los aceites de palma y girasol es fundamental para entender las particularidades de su procesamiento.
+
+3. Comparativa de Materias Primas: Aceite de Palma vs. Aceite de Girasol
+
+La composición química intrínseca de cada aceite vegetal es el factor más determinante, ya que dicta no solo las propiedades del biodiésel resultante, sino también las adaptaciones necesarias en el proceso de producción. Las diferencias en el perfil de ácidos grasos entre el aceite de palma y el de girasol son el origen de dos desafíos de ingeniería opuestos: la estabilidad química para el biodiésel de girasol y la estabilidad física para el de palma.
+
+3.1. Composición de Ácidos Grasos y su Impacto
+
+La diferencia fundamental entre ambos aceites reside en su perfil de ácidos grasos. El aceite de palma se caracteriza por un alto contenido de ácidos grasos saturados, principalmente el ácido palmítico (C16:0). Por el contrario, el aceite de girasol es rico en ácidos grasos insaturados, con predominio del ácido linoleico (C18:2) y el ácido oleico (C18:1) [10, 11]. Esta distinción estructural tiene implicaciones directas en las propiedades del biodiésel.
+
+La siguiente tabla resume la composición típica y su impacto en el combustible final:
+
+Tipo de Ácido Graso	Aceite de Palma (% aprox.)	Aceite de Girasol (% aprox.)	Impacto Principal en el Biodiésel
+Saturados (C16:0, C18:0)	Alto (ej. Palmítico ~42%)	Bajo	Mejora la estabilidad oxidativa y el número de cetano, pero empeora las propiedades de flujo en frío. [11]
+Monoinsaturados (C18:1)	Moderado	Alto	Buen equilibrio entre estabilidad y fluidez en frío.
+Poliinsaturados (C18:2, C18:3)	Bajo	Alto	Mejora las propiedades de flujo en frío, pero reduce drásticamente la estabilidad oxidativa. [11]
+
+Estas diferencias a nivel molecular se traducen directamente en las propiedades físico-químicas del combustible, afectando su comportamiento en el motor y durante el almacenamiento, como se detalla a continuación.
+
+3.2. Propiedades Físico-Químicas del Biodiésel Derivado
+
+El perfil de ácidos grasos de cada aceite define las características del biodiésel producido, conocido como PME (Palm Methyl Ester) para el de palma y SME (Sunflower Methyl Ester) para el de girasol.
+
+* Propiedades de Flujo en Frío (Punto de Nube y Punto de Fluidez): Esta es la diferencia más crítica, representando el principal desafío físico para el PME. El alto contenido de ésteres saturados le confiere un punto de nube y un punto de fluidez muy elevados (por ejemplo, 15ºC y 14ºC respectivamente). Esto significa que los primeros cristales comienzan a formarse a 15ºC, lo que lo hace inadecuado para su uso en climas templados o fríos sin un tratamiento adicional [10]. En contraste, el SME, con su mayor grado de insaturación, presenta un comportamiento mucho mejor a bajas temperaturas [11].
+* Estabilidad Oxidativa: Este es el principal desafío químico para el SME. El mayor número de dobles enlaces en los ácidos grasos del girasol lo hace significativamente más susceptible a la oxidación. La oxidación degrada el combustible, aumentando su acidez y viscosidad, y puede llevar a la formación de gomas y sedimentos que obstruyen filtros e inyectores [5, 11]. Por su composición saturada, el PME es inherentemente más estable a la oxidación, lo que le confiere una mayor vida útil durante el almacenamiento [10].
+* Viscosidad y Densidad: Ambos tipos de biodiésel deben cumplir con los rangos especificados en los estándares internacionales para asegurar una correcta pulverización en el motor. Sin embargo, existen ligeras diferencias. Por ejemplo, un estudio sobre aceites de fritura usados reportó viscosidades dinámicas de 0.0060 Pa·s para el biodiésel de palma (WFPO) y de 0.0041 Pa·s para el de girasol (WFVO) [5]. Considerando las densidades del biodiésel reportadas en el mismo estudio (864 kg/m³ para el de palma y 863 kg/m³ para el de girasol), esto equivale a viscosidades cinemáticas de aproximadamente 6.9 mm²/s y 4.8 mm²/s, respectivamente, lo que sitúa al biodiésel de girasol dentro del rango típico de la norma EN 14214 (3.5-5.0 mm²/s).
+* Número de Cetano y Poder Calorífico: El número de cetano es un indicador de la calidad de ignición del combustible. Las cadenas de ácidos grasos más largas y saturadas se encienden más rápidamente en un motor diésel. En consecuencia, el PME presenta un mayor número de cetano y un poder calorífico superior en comparación con el SME, lo que se traduce en un mejor rendimiento de combustión [11].
+
+Estas propiedades divergentes obligan a adaptar el proceso de síntesis para cada materia prima con el fin de obtener un producto que cumpla con las especificaciones técnicas requeridas.
+
+4. Adaptación del Proceso de Síntesis para Cada Aceite
+
+Aunque el proceso central de transesterificación es común para ambos aceites, las diferencias en su composición exigen modificaciones significativas en el proceso. Estas adaptaciones son soluciones de ingeniería diseñadas para mitigar las debilidades fundamentales de cada materia prima: la inestabilidad química del biodiésel de girasol y la inestabilidad física del biodiésel de palma.
+
+4.1. Consideraciones del Proceso para Aceite de Girasol
+
+La producción de biodiésel a partir de aceite de girasol puede considerarse un procedimiento relativamente estándar dentro de la catálisis alcalina, siempre que el aceite de partida tenga bajos niveles de acidez y agua. Estudios experimentales han demostrado que se pueden alcanzar altos rendimientos bajo ciertas condiciones; por ejemplo, en un estudio se observó el mayor rendimiento con una relación molar etanol:aceite de 10.2:1 y una concentración de catalizador (NaOH) del 1.5% en peso [8].
+
+El factor crítico más importante es el control de la estabilidad oxidativa, la solución de ingeniería a su debilidad química. Debido a su alto contenido en ésteres poliinsaturados, el SME es propenso a la degradación durante el almacenamiento. Para cumplir con los requisitos de estabilidad a largo plazo, como el mínimo de seis meses estipulado por algunas normativas, a menudo es necesario añadir antioxidantes sintéticos al producto final [10, 11]. En contraste, el aceite de palma presenta un desafío de naturaleza física, relacionado con su comportamiento a bajas temperaturas.
+
+4.2. Adaptaciones Críticas para Aceite de Palma: La Invernización (Winterization)
+
+Para que el biodiésel de palma (PME) sea comercialmente viable en regiones con climas templados o fríos, es indispensable un paso de procesamiento adicional y crucial conocido como invernización (o winterization). Este proceso es la solución de ingeniería a su debilidad física, mejorando sus propiedades de flujo en frío [10, 12].
+
+El proceso de invernización consiste en enfriar de manera controlada el biodiésel ya producido. Este enfriamiento provoca la cristalización selectiva de los componentes con puntos de fusión más altos, que son principalmente los ésteres metílicos de ácidos grasos saturados. Una vez formados los cristales, se separan del biodiésel líquido mediante un proceso de filtración [12, 13]. Para mejorar la eficiencia de esta separación y evitar la obstrucción de los filtros, es común el uso de coadyuvantes de filtración como la tierra de diatomeas (kieselgur), la perlita o, más recientemente, fibras de celulosa [12, 13].
+
+Un ejemplo de aplicación industrial a gran escala es la planta de invernización de Sime Darby Biodiesel en Malasia, que produce "Winter Grade PME" (Biodiésel de Palma de Grado Invierno). Este producto tratado puede alcanzar un Punto de Obturación de Filtro en Frío (CFPP) de hasta -20°C, cumpliendo así con las exigentes normativas de invierno de países europeos [10].
+
+Más allá de estas adaptaciones específicas, la optimización de la reacción de transesterificación para ambas materias primas se basa en un entendimiento profundo de su cinética y de los principios de ingeniería de procesos.
+
+5. Cinética de la Reacción y Diseño de Proceso
+
+Comprender la cinética de la reacción y los principios de diseño de los equipos es fundamental para optimizar la producción de biodiésel a escala industrial. Este conocimiento permite maximizar el rendimiento, minimizar los tiempos de reacción, reducir los costes operativos y, en última instancia, asegurar la viabilidad económica del proceso.
+
+5.1. Aspectos Cinéticos de la Transesterificación
+
+La transesterificación, aunque se describe como un conjunto de tres reacciones reversibles, muestra un fuerte desplazamiento del equilibrio hacia la formación de productos (ésteres y glicerol), especialmente cuando se utiliza un exceso de alcohol. Los estudios cinéticos revelan que las constantes de velocidad de las reacciones directas son significativamente mayores que las de las reacciones inversas, lo que confirma que el proceso favorece la conversión casi completa de los triglicéridos [6].
+
+Un mecanismo comúnmente aceptado para la reacción en un sistema por lotes propone dos regiones de control. Inicialmente, la reacción está limitada por la transferencia de masa, debido a la inmiscibilidad entre la fase oleosa (aceite) y la fase alcohólica (metanol y catalizador). En esta etapa, una agitación vigorosa, típicamente entre 400 y 1000 rpm, es crucial para crear una emulsión fina, aumentar el área interfacial y superar esta limitación [1, 4]. Una vez que se establece un contacto íntimo entre los reactivos, la reacción pasa a estar controlada cinéticamente, donde la velocidad depende de las concentraciones, la temperatura y la actividad del catalizador.
+
+Datos específicos para la transesterificación de aceite de palma con KOH al 1% en peso, una relación molar metanol:aceite de 6:1 y una temperatura de 60°C, muestran un rápido aumento de la pureza del biodiésel al 94.3% en los primeros 2 minutos. El equilibrio de la reacción, con una pureza máxima del 99.1%, se alcanza en aproximadamente 20 minutos [6]. Diversos estudios han modelado con éxito esta reacción utilizando una cinética de segundo orden [4, 6]. Este conocimiento cinético es la base para el diseño y la operación del equipamiento de reacción.
+
+5.2. Equipamiento y Diseño del Proceso por Lotes (Batch)
+
+La producción de biodiésel a escala de laboratorio o piloto se realiza comúnmente en un reactor por lotes (batch reactor), cuyo diseño permite un control preciso de las variables de reacción. Un montaje típico incluye los siguientes componentes:
+
+* Reactor de vidrio sellado: Permite la observación visual de la reacción y soporta las condiciones de operación.
+* Agitador mecánico: Esencial para garantizar una mezcla homogénea y superar las limitaciones de transferencia de masa.
+* Termómetro digital: Para monitorizar y controlar la temperatura de reacción.
+* Puerto de muestreo: Permite la extracción de alícuotas a lo largo del tiempo para seguir el progreso de la reacción.
+* Baño de agua de circulación: Proporciona un control de temperatura preciso y uniforme para el reactor [6].
+
+El procedimiento operativo general comienza con la carga del aceite en el reactor y su calentamiento hasta la temperatura deseada. A continuación, se añade la solución de metóxido (metanol premezclado con el catalizador disuelto) y se inicia la agitación. La reacción transcurre bajo temperatura y agitación constantes durante un tiempo predeterminado. Finalmente, se detiene la reacción y se toman muestras para su análisis [6]. A escala industrial, los principios son los mismos, pero se utilizan reactores de acero de gran volumen, como los que se observan en instalaciones comerciales [10], manteniendo un control riguroso sobre los factores operativos para garantizar la eficiencia y la calidad del producto.
+
+6. Factores Críticos, Gestión de Residuos y Calidad del Producto
+
+La optimización del proceso de producción de biodiésel no se centra únicamente en maximizar el rendimiento de la reacción. También es crucial el control riguroso de las variables operativas que afectan directamente la calidad del producto, la gestión eficiente de los subproductos y el cumplimiento de las estrictas normativas de calidad internacionales.
+
+6.1. Influencia de las Variables de Proceso en el Rendimiento
+
+Las principales variables del proceso de transesterificación y su efecto sobre el rendimiento y la calidad del biodiésel se detallan a continuación:
+
+* Relación Molar Alcohol:Aceite: La transesterificación es una reacción de equilibrio. Para desplazarla hacia la formación de ésteres y maximizar la conversión, se utiliza un exceso estequiométrico de alcohol. Las relaciones molares de alcohol a aceite comúnmente empleadas en la práctica industrial varían entre 6:1 y 12:1 [5, 6, 14].
+* Concentración y Tipo de Catalizador: La cantidad de catalizador (generalmente entre 0.5% y 1.5% en peso respecto al aceite) tiene un impacto directo en la velocidad de reacción. Una concentración insuficiente resulta en una conversión incompleta. Por el contrario, un exceso de catalizador alcalino puede favorecer la formación de jabón, lo que reduce el rendimiento y complica la etapa de purificación [5, 8].
+* Temperatura de Reacción: El aumento de la temperatura acelera la velocidad de reacción. Sin embargo, para procesos a presión atmosférica, la temperatura debe mantenerse por debajo del punto de ebullición del alcohol utilizado (aproximadamente 60-65°C para el metanol) para evitar su evaporación [5, 6].
+* Contenido de Agua y Ácidos Grasos Libres (AGL): Este es uno de los factores más críticos para la catálisis homogénea alcalina. La presencia de agua y AGL reacciona con el catalizador en una reacción de saponificación, consumiéndolo y formando jabones. Estos jabones actúan como emulsionantes, dificultando enormemente la separación por gravedad del biodiésel y el glicerol [5, 7].
+
+Una vez completada la reacción, la gestión adecuada del principal subproducto generado, el glicerol, es esencial para la sostenibilidad del proceso.
+
+6.2. Generación y Gestión de Residuos
+
+* Glicerol Crudo: Es el principal subproducto del proceso, generándose en una proporción aproximada de 10 kg por cada 100 kg de biodiésel producido [15]. El glicerol crudo no es puro; está contaminado con el exceso de metanol, el catalizador neutralizado (sales), jabones, agua y trazas de aceite sin reaccionar [7, 15]. Su gestión es clave para la economía del proceso.
+  * Purificación y Valorización: El glicerol crudo puede ser refinado para alcanzar una alta pureza (>99.5%). Este proceso suele implicar una acidificación para convertir los jabones en AGL y una posterior destilación para eliminar impurezas. El glicerol purificado es un producto de alto valor añadido con aplicaciones en las industrias farmacéutica, cosmética y alimentaria [15, 16].
+  * Usos Directos y Conversión: Incluso en su forma cruda, el glicerol puede ser valorizado. Puede utilizarse para producir otros productos químicos como polialcoholes, polioles o como materia prima para la síntesis de catalizadores de carbono [7, 15]. Una diferencia notable es que la transesterificación del aceite de palma con metóxido de sodio tiende a producir jabones "duros" que pueden solidificar y complicar el procesamiento, a diferencia de los jabones "blandos" formados a partir de catalizadores de potasio [7].
+* Torta de Filtración: Específico del proceso de invernización del biodiésel de palma, se genera una torta de filtración compuesta por ésteres saturados y el coadyuvante de filtración. El uso de coadyuvantes a base de celulosa permite que esta torta sea utilizada como componente en la alimentación de ganado, convirtiendo un residuo en un subproducto de valor [13].
+
+La correcta gestión del proceso y sus residuos es un prerrequisito para alcanzar la calidad final exigida al biodiésel.
+
+6.3. Control de Calidad y Cumplimiento de Estándares
+
+Para que el biodiésel pueda ser comercializado y utilizado en motores diésel sin riesgo, debe cumplir con especificaciones rigurosas, definidas en estándares internacionales como ASTM D6751 en Estados Unidos y EN 14214 en Europa [5, 17]. Estos estándares establecen límites para parámetros físico-químicos que garantizan el rendimiento, la seguridad y la durabilidad del motor.
+
+La siguiente tabla resume algunos de los parámetros de calidad más importantes:
+
+Parámetro de Calidad	Importancia	Límite Típico (EN 14214)
+Contenido de Éster	Mide la pureza del biodiésel y el grado de conversión de la reacción. Un bajo contenido indica una reacción incompleta.	Mín. 96.5 % en peso [6]
+Viscosidad Cinemática	Afecta la atomización del combustible en el inyector. Una viscosidad demasiado alta causa depósitos; demasiado baja reduce la lubricidad. [2]	3.5 - 5.0 mm²/s a 40°C
+Punto de Inflamación	Indica la temperatura mínima para la ignición de los vapores. Es una medida clave de seguridad y un indicador del contenido residual de metanol. [2]	Mín. 101°C
+Valor de Ácido	Mide los AGL residuales y los productos de la oxidación. Un valor alto indica un potencial de corrosión para los componentes del motor. [5]	Máx. 0.50 mgKOH/g
+Glicerol (Libre y Total)	El exceso de glicerol y de glicéridos parciales puede causar depósitos en el motor y la obstrucción de filtros.	Máx. 0.02% / 0.25% [10]
+CFPP (Punto de Obturación de Filtro en Frío)	Parámetro clave para la operatividad en climas fríos. El límite varía estacionalmente en la norma para adaptarse a las condiciones ambientales. [10]	ej. Máx. -20°C (Invierno)
+
+Un control de calidad riguroso en todas las etapas del proceso, desde la selección de la materia prima hasta la purificación final, es indispensable para producir un biodiésel que cumpla con estos exigentes estándares.
+
+7. Conclusiones
+
+Este estudio comparativo revela que tanto el aceite de palma como el de girasol son materias primas viables para la producción de biodiésel de alta calidad, siempre que el proceso de síntesis se adapte meticulosamente para resolver los desafíos de ingeniería fundamentales de cada uno. La elección de la materia prima impone requisitos tecnológicos específicos que deben ser abordados para que el producto final cumpla con los estándares internacionales.
+
+La principal conclusión se centra en el trade-off fundamental entre la estabilidad química y la física, dictado por el perfil de ácidos grasos:
+
+* El biodiésel de girasol, rico en ésteres insaturados, enfrenta un desafío de estabilidad química (oxidación). Aunque posee excelentes propiedades de flujo en frío, requiere la adición de antioxidantes como solución de ingeniería para garantizar una vida útil adecuada.
+* El biodiésel de palma, con su alto contenido de ésteres saturados, enfrenta un desafío de estabilidad física (cristalización). Posee una excelente estabilidad oxidativa y un alto número de cetano, pero su pobre comportamiento a bajas temperaturas exige la implementación de un proceso de invernización como solución de ingeniería para ser funcional en climas templados y fríos.
+
+En definitiva, la elección entre ambas materias primas no se basará en una superioridad técnica absoluta, sino en una combinación de factores geográficos, climáticos, económicos y de la infraestructura de procesamiento disponible. Con la aplicación de las tecnologías adecuadas, tanto el aceite de palma como el de girasol pueden contribuir de manera significativa y complementaria a la diversificación de la matriz energética.
+
+8. Bibliografía
+
+1. Janajreh, I., et al. "Influence on process parameters in transesterification of vegetable and waste oil-A review." IJRRAS 10.1 (2012).
+2. Demirbaş, A. "Biodiesel production from vegetable oils and fats with high free fatty acids." Energy Conversion and Management 46.5 (2005): 779-786.
+3. Demirbaş, A. "Biodiesel: The Use of Vegetable Oils and Their Derivatives as Alternative Diesel Fuels." Energy Conversion and Management 44.17 (2003): 2741-2759.
+4. Noureddini, H., & Zhu, D. "Kinetics of transesterification of soybean oil with methanol." JAOCS 74.11 (1997): 1457-1463.
+5. Adewale, P., et al. "Evaluation of Process Parameters for Biodiesel Production from Vegetable and Palm Waste Frying Oils Using a Homogeneous Catalyst." Creative Commons Attribution International License (2017).
+6. Theerayut, L., et al. "A Second Order Kinetics of Palm Oil Transesterification." ResearchGate (2007).
+7. "Characterization of crude glycerol and glycerol pitch from palm-based residual biomass." PMC, National Center for Biotechnology Information.
+8. Sales, A. "Production of biodiesel from sunflower oil and ethanol by base catalysed transesterification." MSc Thesis, KTH Royal Institute of Technology (2011).
+9. "Enzymatic Process for Biodiesel and Biobased Material Production." MPOB Information Series.
+10. "Chapter 4 Biodiesel Fuel Quality." Economic Research Institute for ASEAN and East Asia (ERIA).
+11. Boichenko, S., et al. "Physical, Chemical, and Performance Properties of Biodiesel Fuels: A Comparative Study of Lipid-Based Feedstocks." Energies 18.16 (2025): 4274.
+12. Ergönül, P. G., & Nergiz, C. "The effect of different filter aid materials and winterization periods on the oxidative stability of sunflower and corn oils." Grasas y Aceites 66.1 (2015): e062.
+13. Lužaić, T., et al. "Implementation of Cellulose-Based Filtration Aids in Industrial Sunflower Oil Dewaxing (Winterization): Process Monitoring, Prediction, and Optimization." Foods 13.18 (2024): 2960.
+14. Rashmi, W., et al. "Removal of residual catalyst from palm oil-based biodiesel using new ionic liquids analogous." Journal of Engineering Science and Technology 10.4 (2015): 458-470.
+15. "Comparative Analysis of Synthesis Pathways, Kinetic Imperatives, and Process Engineering for Palm and Sunflower Oil Methyl Esters." Source document. Note: Refers to Zaharudin, et al. for glycerol generation data.
+16. Zaharudin, et al. "Evaluation on the Large Scale Glycerol Production from Used Cooking Oil using SuperPro Designer Simulator." ResearchGate (2022).
+17. "Biodiesel Standards & Properties." DieselNet.
