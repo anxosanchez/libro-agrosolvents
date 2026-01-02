@@ -9,7 +9,6 @@ book:
     - "Ángel Sánchez Bermúdez"
   date: today
   cover-image: cover.png
-
   chapters:
 #    - cover.qmd
     - abstract.md
