@@ -1,8 +1,9 @@
-# Informe de Actividades de la UVIGO
+--- 
+title: "Informe de Actividades de la UVIGO"
+subtitle: "Informe Final de Investigación del Proyecto **AGROSOLVENTS**"
+---
 
 *Informe estructurado de la actividad de la parte de la participación de la **Universidade de Vigo (UVIGO)** perfectamente definido y fácil de integrar con la del informe de **DROGAS VIGO (DROVI)**.*
-
-# Informe Final de Investigación del Proyecto **AGROSOLVENTS**
 
 ## Desarrollo de Disolventes Biobasados y Sistemas de Microemulsiones de Alta Estabilidad
 

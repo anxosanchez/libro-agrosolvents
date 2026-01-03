@@ -1,0 +1,98 @@
+# Presente y futuro industrial de los disolventes verdes: Disolventes **AGROSOLVENTS**
+
+Presente y futuro industrial de los disolventes verdes de **AGROSOLVENTS**. 
+
+## Ésteres metílicos de aceites Vegetales: 
+
+Hablamos en realidad de el biodiésel como disolvente Sostenible.
+ 
+Los ésteres metílicos de aceites vegetales, como los girasolatos y palmitatos, representan una piedra angular en la transición de la industria química hacia un paradigma de sostenibilidad. La sustitución de disolventes derivados del petróleo por alternativas de base biológica es una necesidad estratégica impulsada por la creciente presión legislativa y la conciencia medioambiental. Un motor clave de esta transición es la imperiosa necesidad de reducir la emisión de Compuestos Orgánicos Volátiles (COV), compuestos con graves implicaciones para la salud humana y los ecosistemas.
+
+El proyecto AGROSOLVENTS, se centra precisamente en la formulación de "disolventes verdes" alternativos a los de origen petroquímico, siguiendo las directrices de la "química verde" para minimizar la huella ecológica de los procesos industriales.  
+
+El método de obtención más adecuado para estos ésteres es la transesterificación. Este proceso químico consiste en la reacción de un aceite vegetal, compuesto principalmente por triglicéridos, con un alcohol de cadena corta, habitualmente metanol. La reacción se lleva a cabo en presencia de un catalizador básico, como el hidróxido de potasio (KOH), y da como resultado el éster metílico deseado (por ejemplo, palmitato de metilo) y glicerina como subproducto de valor añadido. El proceso no es una reacción única, sino una secuencia de tres reacciones reversibles y consecutivas:  
+
+1. Triglicérido + Metanol ⇌ Éster Metílico + Diglicérido   
+2. Diglicérido + Metanol ⇌ Éster Metílico + Monoglicérido   
+3. Monoglicérido + Metanol ⇌ Éster Metílico + Glicerina    
+
+Una ventaja notable de este proceso es que la glicerina y el éster no son miscibles, lo que facilita su separación y permite alcanzar un rendimiento de reacción cercano al 100%.
+
+El potencial de los palmitatos y girasolatos como disolventes verdes se comprende mejor al contrastar los modelos industriales. El "Modelo Tradicional" se basa en disolventes derivados de materias primas no renovables (petróleo), a menudo tóxicos, contaminantes y con una elevada huella de carbono. Por el contrario, el modelo de "Química Verde" que representan estos productos se fundamenta en materias primas renovables de origen agronómico, resultando en disolventes no tóxicos, no contaminantes y biodegradables. Su adopción permite a la industria reducir la dependencia de los recursos fósiles y disminuir significativamente la emisión de COVs, alineándose con objetivos de sostenibilidad global.
+
+Los campos de aplicación industrial para estos ésteres metílicos son amplios, destacando su uso en formulaciones de limpieza industrial y en la industria de recubrimientos y pinturas. Una aplicación de especial relevancia es su uso en la formulación de microemulsiones. Una microemulsión es un sistema termodinámicamente estable, ópticamente isotrópico, compuesto por dos líquidos inmiscibles (como aceite y agua) y agentes tensoactivos. Su principal característica es un tamaño de gota extremadamente pequeño, típicamente en el rango de 10 a 100 nm[^patente], [^li2024], aunque se pueden extender hasta 200 nm. A nivel microestructural, estos sistemas pueden considerarse no como una simple dispersión de gotas, sino como una estructura bicontinua en la que no existe fase externa ni interna. La principal ventaja de estas formulaciones es la capacidad de incrementar significativamente el contenido de agua, un disolvente no-COV, reduciendo así drásticamente el impacto ambiental y el coste final del producto. Se ha determinado que los girasolatos y palmitatos son componentes ideales para formar microemulsiones donde todos los componentes son biodegradables y de origen agrícola[^tartaro2020].
+
+### Aplicaciones en a Industria Naval y de automoción
+
+Los sectores naval y de automoción son mercados estratégicos para la penetración de estos nuevos disolventes verdes. La industria de la automoción, en particular, es un cliente clave y un mercado objetivo prioritario debido a la estricta legislación ambiental que presiona a los fabricantes para reducir la huella ecológica asociada a la emisión de COVs en procesos como la aplicación de pinturas y la limpieza de superficies. La implementación de disolventes basados en ésteres metílicos y sus microemulsiones ofrece a estas industrias una vía directa para cumplir con las normativas y avanzar hacia un modelo de producción más sostenible.
+
+Aunque los ésteres metílicos de aceites vegetales ofrecen una solución madura y escalable, la diversificación de la oferta de disolventes verdes es crucial para abordar la totalidad de las necesidades industriales. En este contexto, es necesario explorar otras familias químicas, como los ésteres dibásicos, que ofrecen perfiles de rendimiento distintos y amplían el espectro de soluciones sostenibles disponibles.
+
+## Ésteres dibásicos (DBE)
+
+Ante todo son la versatilidad y el alto rendimiento ecológico hechos disovente.
+
+Los ésteres dibásicos (DBE) constituyen una familia de disolventes de alto rendimiento que se alinea perfectamente con los principios de la química verde. Su importancia estratégica radica en su capacidad para reemplazar compuestos de alta peligrosidad, como los hidrocarburos aromáticos (tolueno, xileno) y los disolventes clorocarbonados, en una amplia gama de aplicaciones industriales. Su perfil de baja toxicidad y excelentes propiedades los posiciona como una alternativa superior en procesos que demandan tanto eficacia como sostenibilidad.  
+
+Los DBE se sintetizan mediante la esterificación de ácidos dicarboxílicos (como el ácido succínico, glutárico y adípico) con alcoholes, generalmente metanol[^penpetweb]. Una de sus ventajas medioambientales es que estos ácidos a menudo provienen de materias primas renovables o se consideran "compuestos de desecho" de otros procesos industriales, como la producción de caprolactama, lo que contribuye a una economía circular. Su estructura química general responde a la fórmula $\ce{CH3(CH2)mOC(O)(CH2)nC(O)O(CH2)mCH3}$}. Los diésteres de los ácidos succínico, glutárico y adípico son considerados los más prometedores desde la perspectiva de la química verde].  
+
+Las propiedades que convierten a los DBE en excelentes disolventes verdes son múltiples y se resumen a continuación:  
+
+- Baja toxicidad y respeto por el medio ambiente: A diferencia de muchos disolventes convencionales, los DBE no están clasificados como sustancias peligrosas, lo que mejora la seguridad en el entorno de trabajo y minimiza el impacto ambiental[^penpetweb].    
+- Altas temperaturas de ebullición y alta estabilidad: Esta característica reduce las pérdidas por evaporación y la emisión de COVs, además de permitir su uso en procesos que requieren altas temperaturas.   
+- Viscosidades y densidades cercanas al agua: Esta propiedad facilita su manejo e integración en formulaciones acuosas como las microemulsiones.  
+- Biodegradabilidad: Los DBE son fácilmente biodegradables, lo que evita su acumulación en el medio ambiente.  
+
+Las aplicaciones industriales de los DBE son diversas y están bien documentadas en patentes para formulaciones de limpieza industrial, pinturas, revestimientos y en la industria de polímeros. Un campo de aplicación especialmente relevante es su uso como bases para lubricantes de alto rendimiento y fluidos hidráulicos. Estudios han demostrado que los ésteres dibásicos derivados de ácidos grasos pueden formularse para alcanzar grados de viscosidad estándar como VG32 y VG46, compitiendo directamente en rendimiento con los aceites minerales y sintéticos tradicionales[^vanderkils2022].
+
+### Relevancia en los sectores vaval y de automoción  
+
+El excelente rendimiento de los DBE como fluidos hidráulicos y lubricantes los hace particularmente idóneos para las exigentes condiciones de operación en las industrias naval y de automoción. Una ventaja clave es su comportamiento superior a bajas temperaturas en comparación con las bases minerales convencionales. Los puntos de fluidez de los ésteres dibásicos monounsaturados son significativamente más bajos, lo que garantiza un rendimiento fiable en climas fríos, un factor crucial tanto para maquinaria naval expuesta a bajas temperaturas como para vehículos de automoción[^vanderkils2022]. 
+
+La evolución hacia la química verde no se detiene en la optimización de familias de disolventes ya conocidas. La investigación actual se adentra en la creación de moléculas completamente nuevas derivadas de biomasa, abriendo fronteras hacia disolventes con perfiles de sostenibilidad aún más avanzados, como es el caso de Cyrene®.  
+
+## Nuevas fronteras  
+
+Explorando nuevas fronteras se ve algunos nuevos jugadores de futuro con una incipiente proyección y precios por el momento no bajos, pero de interés. Uno de los más interesante es el Es el Cyrene® (su denominación IUPAC es dihidrolevoglucosenona), que emerge como un disolvente de nueva generación, destinado a revolucionar los estándares de sostenibilidad en la industria química. Su origen, completamente derivado de biomasa de celulosa, y su perfil de seguridad excepcional lo posicionan como un sustituto ideal para disolventes apróticos dipolares de alta toxicidad y uso restringido, como NMP (N-metilpirrolidona), DMF (N,N-dimetilformamida) y DMSO (dimetilsulfóxido). Su desarrollo responde a la creciente demanda de alternativas que no solo sean eficaces, sino también seguras, biodegradables y de bajo impacto ambiental.  
+
+Químicamente, es un cetal bicíclico que se obtiene a partir de celulosa mediante un proceso de dos pasos. Primero, la celulosa se somete a pirólisis para producir levoglucosenona. Posteriormente, este intermedio se convierte en dihidrolevoglucosenona (Cyrene®) mediante una hidrogenación catalítica[^wilson2014]. Este método de síntesis a partir de un recurso renovable y abundante subraya su potencial como pilar de una química más sostenible.  
+
+Las propiedades fisicoquímicas y medioambientales de Cyrene® lo distinguen notablemente de los disolventes tradicionales. A continuación, se comparan algunas de sus propiedades clave con las de disolventes comunes[^citarella2022]:  
+
+| Disolvente	| Densidad (g/mL)	| Punto de Ebullición (°C) | Polaridad (π*) |  
+| :--------- | -------: | -------: | ------: |  
+| Cyrene®	| 1.25	| 227	| 0.93 |  
+| NMP	| 1.03	| 202	| 0.90 |  
+| DMF	| 0.95 | 153	 | 0.88 |  
+|DMSO |	1.1	 | 189	 | 1.00 |  
+
+Además de su alta polaridad y punto de ebullición, que lo hacen adecuado para reacciones a alta temperatura, sus ventajas medioambientales son sobresalientes. Cyrene® es fácilmente biodegradable (alcanza un 99% de biodegradación en solo 14 días), no es mutagénico y se ha clasificado como "prácticamente no tóxico". Su alta miscibilidad con agua no solo facilita su eliminación de las mezclas de reacción mediante un simple lavado acuoso, sino que también permite su reciclaje por destilación, reforzando su perfil de sostenibilidad[^citarella2022].
+
+El futuro y el impacto potencial de Cyrene® son inmensos, con aplicaciones que abarcan desde la síntesis orgánica fina hasta la producción de biomateriales avanzados[^wilson2014].  
+
+- Síntesis Orgánica: Ha demostrado ser un medio de reacción eficaz para la formación de enlaces amida y la síntesis de ureas, dos de las transformaciones más importantes en la química farmacéutica. También ha mostrado un excelente rendimiento en reacciones de acoplamiento catalizadas por metales, como las reacciones de Suzuki-Miyaura y Heck.  
+- Producción de Biomateriales: Su uso se está expandiendo a campos innovadores. Por ejemplo, se ha empleado con éxito en la preparación de nanopartículas poliméricas de PLGA (poli(ácido láctico-co-glicólico)) para sistemas de administración controlada de fármacos, evitando el uso de disolventes tóxicos [3]. Además, ha demostrado ser un solvente superior para la exfoliación en fase líquida de grafito, permitiendo la producción de grafeno de alta calidad con menos defectos y en mayores concentraciones que con disolventes tradicionales como NMP.  
+
+Se espera que el uso de Cyrene® continúe creciendo a medida que se exploren y validen nuevas aplicaciones, consolidándolo como un solvente de elección en la química del futuro. La innovación que representa Cyrene® es un claro indicativo de la evolución irreversible de la industria química hacia un paradigma de sostenibilidad integral [^citarella2022].
+
+## Conclusión  
+
+En conclusión, la transición hacia disolventes de origen agronómico es una realidad tangible y una necesidad ineludible para la industria moderna. El análisis de las tres familias de disolventes verdes presentadas demuestra la existencia de un ecosistema de soluciones robusto y diversificado. Los ésteres metílicos de aceites vegetales (girasolatos, palmitatos) se consolidan como una alternativa madura, escalable y económicamente viable, ideal para sustituir disolventes petroquímicos en aplicaciones de gran volumen como la limpieza y los recubrimientos. Por su parte, los ésteres dibásicos (DBE) ofrecen una solución versátil y de alto rendimiento técnico, destacando en aplicaciones exigentes como los lubricantes y fluidos hidráulicos, donde sus propiedades superan a las de sus análogos convencionales. Finalmente, Cyrene® representa la vanguardia de la innovación, un disolvente disruptivo derivado de biomasa que no solo reemplaza a compuestos altamente tóxicos, sino que abre nuevas posibilidades en la síntesis de moléculas complejas y biomateriales avanzados.  
+
+La adopción de estas alternativas es crítica no solo para la protección del medio ambiente y la salud humana, sino también para la competitividad y resiliencia de la industria a largo plazo. Iniciativas de alto nivel como el "European Green Deal" marcan una hoja de ruta clara, impulsando la "EU Chemicals Strategy for Sustainability" hacia un ambiente libre de tóxicos. Este marco estratégico se materializa a través de programas de financiación como Horizon Europe, que incentivan activamente la investigación y el desarrollo de productos y procesos químicos seguros y sostenibles de base biológica. La inversión en el desarrollo y la implementación de disolventes verdes no es, por tanto, una opción, sino un pilar fundamental sobre el que se construirá el paradigma industrial del futuro: un paradigma más limpio, más seguro y en armonía con los recursos del planeta.  
+
+## Bibliografía
+
+[^vanderkils2022]: van der Klis, F., van den Hoorn, M. H., Blaauw, R., van Haveren, J., & van Es, D. S. (2011). Conversion of fatty acid methyl esters into dibasic esters by metathesis and their lubricant properties. European Journal of Lipid Science and Technology, 113(5), 562–571.  
+
+[^citarella2022]: Citarella, A., Amenta, A., et al. (2022). Cyrene: A Green Solvent for the Synthesis of Bioactive Molecules and Functional Biomaterials. International Journal of Molecular Sciences, 23(24), 15960.  
+
+[^wilson2014]: Wilson, K. L., et al. (2014). Cyrene as a bio-based solvent for organic synthesis. Organic Process Research & Development.  
+
+[^patente]: Patente DE19740452A1 - Microemulsion containing fatty acid methyl ester.  
+ 
+[^penpetweb]: PENPET Petrochemical Trading. In http://www.penet.com. Dibasic esters (DBE).  
+
+[^li2024]: Li, L., Qu, J., et al. (2024). Advancements in Characterization Techniques for Microemulsions: From Molecular Insights to Macroscopic Phenomena. Molecules, 29(12), 2901.  
+
+[^tartaro2020]: Tartaro, G., Mateos, H., Schirone, D., & Palazzo, G. (2020). Microemulsion Microstructure(s): A Tutorial Review. Nanomaterials, 10(9), 1657.

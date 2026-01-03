@@ -1,0 +1,316 @@
+---
+title: "Resumen ejecutivo"
+subtitle: "Datos más relevantes del **Proyecto AGROSOLVENTS**"
+---
+
+## Introdución y contexto estratéxico
+
+**DROVI** se ha consolidado como una empresa líder e innovadora en el sector de disolventes en el noroeste de España y Portugal. Esta propuesta detalla el siguiente paso en nuestra evolución estratégica: el Proyecto AGROSOLVENTS. Esta iniciativa representa la culminación de una trayectoria de más de 20 años orientada hacia un modelo industrial basado en los principios de la química verde y la sostenibilidad, reafirmando nuestro compromiso con la innovación responsable.
+
+La trayectoria de **DROVI** se puede articular en tres fases evolutivas que demuestran una creciente intensidad innovadora:
+
+1. Fase Comercial (desde los inicios de la empresa hasta 2007): Etapa centrada en la distribución y formulación a medida de disolventes, que sentó las bases comerciales de la empresa.
+
+2. Fase de Servicios (hasta 2018): Marcada por el inicio de la colaboración con la Universidad de Vigo y la creación de la Planta de Reciclaje de Disolventes (**REGADI**). Esta fase, premiada a nivel europeo, se especializó en la valorización de disolventes, especialmente para el sector de la automoción. 3. Fase Industrial (Desde 2018): Etapa de alta intensidad innovadora, con el inicio de proyectos de I+D+i con el CDTI. El proyecto NewBioSol sentó las bases para el desarrollo de nuevos productos de origen biológico y la planificación de la futura actividad industrial de **DROVI**, que ahora se materializa con **AGROSOLVENTS**.
+
+Actualmente, **DROVI** opera con un sistema de gestión dual certificado según las normas **UNE-EN-ISO 9001:2015** (Calidad) y **UNE-EN-ISO 14001:2015** (Medio Ambiente). Nuestro compromiso ambiental es un pilar fundamental que nos impulsa a buscar soluciones que superen las limitaciones de nuestros productos actuales, principalmente derivados del petróleo.  
+
+Esta propuesta analiza en detalle los retos ambientales y regulatorios a los que se enfrenta el sector y presenta el Proyecto AGROSOLVENTS como nuestra respuesta estratégica para liderar el futuro de los disolventes sostenibles.  
+
+## El desafío de la sustitución urgente de los Disolventes sostenibles. 
+
+El mercado global de disolventes industriales se enfrenta a una encrucijada ineludible. La dependencia histórica de los derivados del petróleo es cada vez más insostenible debido a la presión regulatoria, la creciente conciencia ambiental de los consumidores y la evidencia de los riesgos que estos compuestos representan para la salud humana y el medio ambiente. Encontrar alternativas eficaces y sostenibles no solo es una oportunidad, sino una necesidad estratégica para la supervivencia y el liderazgo en la industria.  
+
+### Riesgos ambientales de los disolventes tradicionales  
+
+La mayoría de los disolventes tradicionales emiten Compuestos Orgánicos Volátiles (COV), cuyos efectos nocivos para el medio ambiente han sido documentados.  
+
+- Contaminación del agua y el suelo ya que los derrames y las emisiones pueden contaminar los acuíferos y dañar los ecosistemas naturales.    
+- Agotan la capa de ozono, al menos algunos COV contribuyen a la destrucción del ozono estratosférico, que nos protege de la radiación ultravioleta.  
+- Forman ozono troposférico en presencia de la luz solar pues los COV reaccionan con los óxidos de nitrógeno para formar ozono troposférico. Este "ozono malo" es tóxico y perjudicial para la salud humana y los cultivos, interfiriendo en la fotosíntesis y reduciendo la producción agrícola hasta en un 5-10% en la Unión Europea.  
+
+### Riesgos para la salud humana
+
+Las propiedades inherentes de los disolventes orgánicos (volátiles, liposolubles, tóxicos e inflamables) suponen riesgos significativos para la salud de las personas expuestas.  
+
+- Problemas cutáneos y respiratorios. Por su naturaleza volátil facilita su inhalación, causando irritación de las vías respiratorias, alergias y náuseas. El contacto directo con la piel puede causar problemas dermatológicos.  
+- Acumulación en el organismo ya que al ser liposolubles, tienen afinidad por los tejidos grasos, donde tienden a acumularse. La exposición crónica puede causar daños a largo plazo en órganos vitales como el hígado, los riñones, los pulmones y el sistema nervioso central.  
+- Efectos neurológicos y psiquiátricos: estudios, como uno realizado en Suecia con pintores, han demostrado una correlación entre la exposición crónica y síntomas como irritabilidad, dificultad para concentrarse, fatiga y pérdida de memoria. * Potencial carcinógeno: Algunos de los compuestos más comunes, como el benceno, han sido reconocidos como carcinógenos.  
+
+### Presión legislativa europea  
+
+La Unión Europea lidera la transición hacia un modelo industrial más seguro y sostenible mediante un marco legislativo cada vez más estricto. **La Directiva 1999/13/CE**, que limita las emisiones de COV de las actividades industriales, y el reglamento **REACH (CE) n.º 1907/2006**, que controla el uso de sustancias químicas potencialmente peligrosas, son los principales impulsores que impulsan a la industria a adoptar los principios de la **Química Verde**.  
+
+En resumen, el marco regulatorio y la demanda del mercado no son amenazas, sino el catalizador de nuestra próxima generación de valor. El Proyecto AGROSOLVENTS no es una solución sencilla; es nuestra iniciativa para capitalizar esta transformación y establecer un nuevo estándar de rendimiento y sostenibilidad en la industria.  
+
+## La solución propuesta en el proyecto **AGROSOLVENTS**
+
+Nuestra misión con AGROSOLVENTS es liderar la formulación de disolventes verdes que posicionen a **DROVI** a la vanguardia de la transición de la industria química hacia productos de origen biológico. El objetivo general es desarrollar una nueva generación de disolventes, siguiendo los principios de la química verde, para sustituir progresivamente los de origen petroquímico, reduciendo así la huella ecológica de nuestros productos y procesos.
+
+El principal reto tecnológico del proyecto es obtener disolventes de origen biológico que no solo igualen, sino que también mejoren los parámetros de sostenibilidad, toxicidad y seguridad de sus homólogos petroquímicos, manteniendo o incluso superando su eficiencia. Buscamos crear productos técnica y económicamente viables, seguros para las personas y respetuosos con el medio ambiente.  
+
+Para lograr este objetivo principal, el proyecto se estructura en torno a tres líneas de investigación fundamentales:  
+
+1. **Objetivo 1**: Microemulsiones con ésteres dibásicos. Continuar con la línea de reducción de emisiones de COV mediante el aumento del contenido de agua en las formulaciones, lo que reduce el impacto ambiental y los costes.  
+
+2. **Objetivo 2**: Palmitatos. Ampliar la gama de materias primas de origen agrícola, utilizando el aceite de palma como alternativa competitiva y sostenible para reducir costes sin infringir la ética alimentaria.  
+  
+3. **Objetivo 3**: Desarrollo de microemulsiones a partir de palmitatos. Investigar la capacidad de los nuevos palmitatos para formar microemulsiones y, así, crear una gama de productos innovadores con aplicaciones industriales de alto valor añadido.  
+
+![](../images/prefacio-1.png)
+
+### Objetivos científico-técnicos  
+
+- Formular disolventes orgánicos comercializados por **DROVI** a partir de recursos biológicos, de acuerdo con los preceptos de la química verde.  
+- Desarrollar microemulsiones en una base acuosa de disolventes orgánicos (ésteres dibásicos) para reducir sus emisiones de COV.  
+- Formular microemulsiones de ésteres dibásicos, girasolatos o palmitatos con aplicaciones en detergencia y lubricación.  
+
+![](../images/prefacio-2.png)
+### Objetivos comerciales y estratégicos  
+
+- Ampliar la gama de productos **DROVI** derivados de aceites naturales.  
+- Introducir microemulsiones en el mercado de disolventes a escala industrial. * Aumentar la aplicabilidad industrial de nuestros productos, abriendo nuevas líneas de negocio.  
+- Reducir el impacto ambiental de los productos, ofreciendo una clara ventaja competitiva a nuestros clientes.  
+- Aprovechar el conocimiento adquirido para optimizar otros productos de nuestro catálogo.  
+
+### Objetivos técnicos específicos   
+
+- Desarrollar una nueva generación de disolventes mediante síntesis, caracterización y desarrollo según las directrices de la Química Verde.  
+- Utilizar materias primas renovables derivadas de la biomasa.  
+- Crear sistemas de microemulsión monofásicos donde un surfactante permite la coexistencia estable de agua y aceite.  
+- Obtener ésteres metílicos de aceite de palma (palmitatos) mediante transesterificación, caracterizando sus propiedades para su uso como disolventes.  
+- Estudiar la capacidad de los palmitatos para formar microemulsiones con el fin de reducir su viscosidad y ampliar sus aplicaciones.  
+
+Para materializar estos ambiciosos objetivos, el proyecto implementa un conjunto de innovaciones tecnológicas disruptivas que redefinirán nuestra cartera de productos.  
+
+## Inovacines tecnológicas clave
+
+El Proyecto **AGROSOLVENTS** basa su estrategia de innovación en el desarrollo de dos familias de productos de vanguardia y la implementación de capacidad de producción interna a través de una planta piloto. Esta combinación nos permite acelerar los ciclos de I+D y validar rápidamente nuevas formulaciones en el mercado.
+
+### Familia de productos 1: palmitatos de aceite de palma
+
+Nuestra elección del aceite de palma no es casual; responde a un análisis estratégico del mercado global de materias primas. La disminución de su demanda para biodiésel y alimentos ha creado una oportunidad única para adquirir una materia prima abundante a un precio altamente competitivo, convirtiendo una tendencia del mercado en una ventaja de costes para **AGROSOLVENTS**.  
+
+El proceso de producción seleccionado es la transesterificación. En términos simples, la transesterificación es un proceso químico que nos permite transformar un tipo de éster (los triglicéridos del aceite vegetal) en otro tipo de éster (los ésteres metílicos o palmitatos) con propiedades disolventes mucho más interesantes para la industria, liberando glicerina como un subproducto valioso. La reacción se produce entre el aceite y un alcohol de cadena corta (metanol) en presencia de un catalizador y consta de tres reacciones reversibles consecutivas:  
+
+1. Triglicérido + Metanol ↔ Éster Metílico + Diglicérido.  
+2. Diglicérido + Metanol ↔ Éster Metílico + Monoglicérido.  
+3. Monoglicérido + Metanol ↔ Éster Metílico + Glicerina.  
+
+En el marco del proyecto, se investigarán y compararán dos procesos de pretratamiento de aceite para optimizar su rendimiento:  
+
+- Proceso 1 (Neutralización/Saponificación Alcalina): Utiliza un catalizador básico para neutralizar los ácidos grasos libres, formando jabón y agua.  
+- Reacción: Ácido graso + Hidróxido de potasio → Jabón de potasio + Agua. 
+- Proceso 2 (Esterificación Catalizada por Ácido): Convierte los ácidos grasos libres en su éster correspondiente utilizando un alcohol (metanol) y un catalizador ácido (como el ácido sulfúrico).     - Reacción: Ácido graso + Metanol → Éster metílico + Agua
+
+### Familia de Productos 2: Microemulsiones Avanzadas
+
+Las microemulsiones son sistemas termodinámicamente estables, transparentes e isótropos compuestos por dos líquidos inmiscibles (agua y aceite) y un surfactante, a menudo complementado con un cosurfactante. Su característica fundamental es que se forman espontáneamente gracias a una tensión superficial extremadamente baja entre las fases oleosa y acuosa, sin necesidad de aporte energético. Esta propiedad permite combinar las ventajas de ambos líquidos en una única fase estable, ofreciendo una alternativa sostenible superior a los disolventes tradicionales. Su composición típica incluye:  
+
+- Fase oleosa: disolventes, cosolventes, aceites.  
+- Agua: el componente acuoso.  
+- Tensioactivos: moléculas que reducen la tensión superficial entre el agua y el aceite.  
+- Cosurfactantes: alcoholes de cadena corta o media que ayudan a estabilizar la microemulsión.  
+
+Las microemulsiones poseen propiedades excepcionales que las convierten en una solución de futuro, abordando directamente los problemas descritos anteriormente:  
+
+- Biodegradables, ya que estáb compuestas por materiales de origen sostenible y fácilmente degradables, minimizando el impacto en el suelo y el agua.  
+- No emiten COV. Su base acuosa elimina la volatilidad, abordando directamente el problema de la formación de ozono troposférico y los riesgos respiratorios mencionados anteriormente.  
+- No son inflamables al poseer un alto porcentaje de agua reduce drásticamente el riesgo de incendio asociado con disolventes orgánicos.  
+- Baja toxicidad pues o contienen compuestos clorados ni hidrocarburos aromáticos policíclicos (HAP), eliminando así los riesgos para la salud a largo plazo.  
+- Alto rendimiento al poder ser formulados como concentrados diluibles en agua, lo que reduce los costes de transporte y uso.  
+
+Sus principales aplicaciones industriales incluyen la limpieza y el desengrasado, la formulación de decapantes de pintura y la sustitución de disolventes clorados, cuyo uso está cada vez más restringido debido a su toxicidad.  
+
+### Ésteres Dibásicos de Origen Biológico (DBE)  
+
+Los ésteres dibásicos (DBE) no son un producto final en sí mismos, sino una tecnología facilitadora crucial: actúan como la fase oleosa "verde" de alto rendimiento en nuestras formulaciones de microemulsiones, lo que nos permite sustituir los disolventes petroquímicos en la base de la formulación. Son mezclas de ésteres dimetílicos de ácidos orgánicos (succínico, glutámico y adípico) que funcionan como disolventes de alto rendimiento. Su principal ventaja reside en su origen sostenible, ya que pueden obtenerse mediante procesos de fermentación por bacterias como E. coli a partir de materias primas renovables (glicerol, azúcares). Este proceso biotecnológico tiene un impacto positivo en la fijación del CO2 atmosférico, contribuyendo a la mitigación del cambio climático.  
+
+### Capacidad de síntesis en la planta piloto (semiindustrial)    
+
+Para acelerar la innovación y reducir la dependencia externa, el proyecto incluye la instalación de una planta piloto en las instalaciones de **DROVI**. Esta planta tiene un doble objetivo estratégico: permitir la experimentación interna y la optimización de los procesos de producción de palmitato, y reducir drásticamente los tiempos de disponibilidad del producto para ensayos de laboratorio e industriales.  
+
+Las características y condiciones de operación de la planta piloto se resumen en la siguiente tabla:  
+
+| Característica | Especificaciones |  
+| :------------- | :--------------: |    
+| Volumen del reactor | 25 litros de volumen de trabajo |  
+| Material | Componentes principales de vidrio para fines de capacitación |  
+| Operación | En serie, por lotes |  
+| Presión | atmosférica |  
+| Temperatura máxima | 120 °C |  
+| Pureza del palmitato | 99 % |  
+| Pretratamiento | H<sub>SO</sub> 0,1 M |  
+| Catalizador | KOH 0,5 M para transesterificación |  
+| Relación molar | 6:1 (metanol/aceite) |  
+| Seguridad | Equipada con dispositivos de seguridad y tratamiento de aire |  
+
+La combinación de estas tecnologías innovadoras, respaldada por una capacidad de desarrollo interna, requiere un plan de ejecución estructurado para garantizar el logro de los objetivos propuestos.  
+
+## Plan de desarrollo y gestión del proyecto
+
+Para garantizar el éxito de una iniciativa tan ambiciosa como **AGROSOLVENTES**, es fundamental contar con una planificación rigurosa y una gestión profesional del proyecto. Esta sección detalla la hoja de ruta, el cronograma, la estrategia de gestión de riesgos y las colaboraciones estratégicas que garantizan el logro de los objetivos definidos. 
+
+### Fases y actividades clave
+
+El proyecto se estructura en dos actividades principales que se desarrollarán a lo largo de 24 meses.  
+
+1. Actividad 1: Formulación de productos experimentales, simulación y ensayos de laboratorio.  
+	- Análisis del estado del arte de los disolventes basados ​​en aceites vegetales.  
+	- Selección de materias primas de origen agrícola (aceite de palma, ésteres dibásicos, tensioactivos).  
+	- Simulación de propiedades físicas para predecir el comportamiento de las mezclas.  
+	- Formulación de productos experimentales (palmitatos y microemulsiones) en la planta piloto y en el laboratorio.  
+- Realización de ensayos de laboratorio para optimizar las formulaciones candidatas.  
+2. Actividad 2: Selección, ensayos industriales y optimización final de los disolventes. 
+	- Análisis continuo del estado del arte.  
+	- Selección y reformulación de los disolventes más prometedores de la Actividad 1.  
+	- Planificación de pruebas industriales para aplicaciones específicas (limpieza, decapantes, etc.).  
+	- Implementación del plan de pruebas industriales en colaboración con clientes potenciales.  
+	- Optimización y formulación final de la gama de nuevos disolventes verdes industriales.  
+
+## Cronograma y entregables  
+
+El proyecto tiene una duración total de 24 meses (2 años), con una clara distribución de actividades:  
+
+- Año 1: Desarrollo completo de la Actividad 1.  
+- Año 2: Desarrollo completo de la Actividad 2.  
+
+Los resultados del proyecto se materializarán en dos tipos de entregables:  
+
+- Entregables Intermedios (Fin del Hito 1): Una primera gama de productos experimentales optimizados a nivel de laboratorio. Estos "Resultados Intermedios de las Fórmulas Propuestas" validarán las composiciones y los procesos definidos.  
+- Entregables Finales (Fin del Hito 2): La gama de productos optimizados, listos para su comercialización, validados mediante ensayos industriales y acompañados de sus correspondientes fichas técnicas y de seguridad.  
+
+### Gestión de riesgos y puntos críticos
+
+Siguiendo las directrices del Project Management Institute (PMI), el éxito del proyecto AGROSOLVENTS se basa en tres factores clave: el compromiso ejecutivo de los socios, una comunicación fluida y objetivos claros y realistas, todo ello garantizado mediante acuerdos contractuales y una metodología de trabajo colaborativo.  
+
+Además, se identificaron cuatro puntos críticos técnicos y se establecieron planes de contingencia para mitigar los posibles riesgos asociados.  
+
+| Puntos crítico | Resultado no deseado | Plan de contingencia |  
+| :------------- | :------------------- | :------------------- |    
+| 1. Simulación | Respuesta negativa del algoritmo del simulador | Modificación de los parámetros iniciales del disolvente objetivo. |  
+| 2. Formulaciones | Inviabilidad técnica o económica de las formulaciones teóricas | R eformulación teórica hacia nuevos componentes desde un punto de vista técnico o de costes |  
+| 3. Pruebas de laboratorio | Resultados ineficaces de los productos candidatos | Reconsideración de las formulaciones y propuestas de composición |  
+| 4. Pruebas industriales | Falta de empresas colaboradoras o retroalimentación negativa |  Realizando pruebas y demostraciones en la planta **DROVI**, invitando a clientes intensivos a evaluar los productos in situ |   
+
+### Colaboraciones estratégicas  
+
+Para garantizar el máximo rigor científico y técnico, el proyecto ha subcontratado a dos socios estratégicos de primer nivel:  
+
+- Universidad de Vigo (Departamento de Ingeniería Química). Este equipo de investigadores colaborará estrechamente con **DROVI** en tareas clave como la simulación de propiedades, la formulación de microemulsiones y la optimización del producto final. Su experiencia y conocimiento son esenciales para alcanzar los ambiciosos objetivos técnicos del proyecto.  
+- Fundación Empresa-Universidad Gallega (FEUGA). FEUGA prestará apoyo en la gestión integral del proyecto, asesorando a la empresa en el desarrollo de actividades de I+D y garantizando el cumplimiento de los objetivos y plazos establecidos.  
+
+La ejecución exitosa de este plan de trabajo generará resultados innovadores con un alto valor de mercado, cuya protección y explotación son cruciales para obtener el retorno de la inversión.6. Propiedad Intelectual y Futuras Vías de I+D.   
+
+La gestión estratégica de la propiedad intelectual es esencial para capturar el valor generado por la innovación y garantizar una ventaja competitiva sostenible. Esta sección describe nuestro plan para proteger los resultados del proyecto AGROSOLVENTS y ​​cómo servirán de plataforma para futuras investigaciones y colaboraciones a nivel internacional.
+
+### Plan de gestión de la propiedad intelectual  
+
+Los resultados más innovadores del proyecto, especialmente las nuevas formulaciones de palmitato y sus correspondientes microemulsiones, representan una novedad de alcance internacional. Nuestra estrategia de protección incluye los siguientes puntos:  
+
+- Protección mediante patente: **DROVI** solicitará una patente de invención para proteger las composiciones y los procesos desarrollados. La búsqueda de patentes realizada confirma que no existen formulaciones de microemulsiones que combinen ésteres dibásicos con alquilatos de ácidos grasos (girosalatos y palmitatos) como las propuestas en este proyecto, lo que refuerza la novedad y la actividad inventiva. * Vías de Explotación: La patente constituirá un activo tecnológico estratégico para **DROVI**, que podrá explotarse directamente o mediante acuerdos de licencia con terceros o acuerdos de explotación conjunta para acceder a nuevos mercados o aplicaciones.  
+- Derechos de Publicación: La Universidad de Vigo podrá utilizar los resultados para publicaciones científicas (artículos, tesis, congresos), siempre con el consentimiento por escrito de **DROVI**. Estas publicaciones respetarán en todo momento el conocimiento técnico y los aspectos considerados secretos industriales por la empresa, garantizando así la protección de nuestra ventaja competitiva.  
+
+### Participación futura en programas internacionales de I+D  
+
+El proyecto **AGROSOLVENTS** está perfectamente alineado con las principales estrategias europeas de sostenibilidad, como la "Estrategia de la UE para la Sostenibilidad de las Sustancias Químicas" y el "Pacto Verde Europeo". Esta alineación no solo valida la relevancia estratégica de nuestro trabajo, sino que también nos posiciona de forma ideal para participar en futuros programas de financiación internacionales.  
+
+Una vez finalizado este proyecto base, **DROVI** explorará activamente oportunidades para formar parte de consorcios europeos en convocatorias de programas como el Programa Horizonte Europa. Hemos identificado convocatorias específicas de gran interés, como las del Clúster 6 ("Alimentación, Bioeconomía, Recursos Naturales, Agricultura y Medio Ambiente"), entre las que destacan:  
+
+- HORIZON-CL6-2023-ZEROPOLLUTION: Convocatorias sobre tecnologías innovadoras para biorrefinerías con cero residuos y contaminación.  
+- HORIZON-CL6-2023-ZEROPOLLUTION: Convocatoria de propuestas para el desarrollo de productos químicos, aditivos y materiales de origen biológico, seguros y sostenibles por diseño, como alternativas a los existentes.   
+
+Esta visión a largo plazo requiere una estrategia comercial sólida y bien definida para comercializar con éxito los productos desarrollados en el ***Proyecto AGROSOLVENTS**.  
+
+## Estrategia de mercado y comercialización  
+
+La innovación técnica solo alcanza el éxito cuando se traduce en valor de mercado. Para el lanzamiento de los productos AGROSOLVENTES, **DROVI** diseñó una sólida estrategia comercial que aprovecha su actual posición de liderazgo para penetrar en un mercado en plena transformación hacia la sostenibilidad.  
+
+### Las oportunidades del **océano azul**  
+
+El mercado tradicional de disolventes puede describirse como un "océano rojo": un sector maduro y altamente competitivo donde la principal variable de decisión es el precio. En este contexto, competir únicamente con productos convencionales limita el crecimiento y la rentabilidad.  
+
+En contraste, el subsector de disolventes verdes y de origen biológico representa un "océano azul": un nuevo mercado en rápido crecimiento, impulsado por la legislación ambiental y la creciente concienciación de los consumidores. Este nicho ofrece una oportunidad estratégica para que **DROVI** se diferencie y lidere, no como un simple distribuidor, sino como un innovador con sus propios productos de alto valor añadido. Nuestra tecnología de palmitato y microemulsión nos permite crear productos superiores en seguridad y sostenibilidad a un coste competitivo, lo que nos permite definir y dominar este nuevo mercado. Las previsiones confirman esta tendencia, estimando una tasa de crecimiento anual del 4,3% para el mercado mundial de disolventes de base biológica hasta 2027.    
+
+### Ventajas competitivas de los productos **AGROSOLVENTES**  
+
+Los nuevos disolventes desarrollados en el proyecto ofrecerán ventajas claras y tangibles sobre la oferta actual, tanto tradicional como ecológica, basadas en los siguientes pilares:  
+
+- Eficiencia de los disolventesya que están diseñados para igualar o incluso mejorar la capacidad de sus homólogos petroquímicos.  
+- No contaminantes pues son biodegradables y sin emisiones de Compuestos Orgánicos Volátiles (COV), cumpliendo con las normativas más exigentes.  
+- No tóxicos al haer sido formulados para eliminar o reducir drásticamente los riesgos para la salud humana asociados a los disolventes tradicionales.  
+- Materias primas renovables que hayan sido obtenidas o producidss a partir de fuentes agrícolas, lo que reduce la dependencia de los combustibles fósiles.  
+- Baja o nula inflamabilidad en el caso de las formulaciones de microemulsiones, con un alto contenido de agua, minimizan los riesgos de incendio y explosión.  
+
+### Ruta de lanzamiento estratégico en 5 fases
+
+Para mitigar el riesgo de mercado inherente al lanzamiento de productos innovadores, diseñamos una estrategia de penetración gradual en cinco fases, que combina productos y mercados de forma progresiva:  
+
+1. **Fase 1** (Riesgo Bajo): Penetrar en los mercados actuales (Automoción, Náutica, Pinturas) con productos similares a los actuales (girasoles y palmitatos).  
+2. **Fase 2** (Riesgo Medio): Desarrollar mercados cercanos (Limpieza Industrial, Adhesivos) con productos similares (girasoles y palmitatos).  
+3. **Fase 3** (Riesgo Medio): Penetrar en los mercados actuales con productos nuevos e innovadores (microemulsiones).  
+4. **Fase 4** (Riesgo Alto): Iniciar la diversificación comercializando microemulsiones en mercados cercanos.  
+5. **Fase 5** (Riesgo Alto): Lograr la diversificación completa, introduciendo nuevos productos (microemulsiones) en nuevos mercados para la empresa (Cosmética, Industria Farmacéutica).  
+
+### Plan de internacionalización  
+
+Nuestra estrategia de crecimiento incluye la expansión internacional de los productos **AGROSOLVENTES.** Para ello, se analizaron diversos factores clave, como la proximidad geográfica, la disponibilidad de apoyo logístico, la normativa ambiental de cada país y la sensibilidad del mercado al precio frente a la sostenibilidad.  
+
+Baseado nesta análise, os países prioritarios para a nosa estratexia de internacionalización son:  
+
+- Portugal  
+- Francia  
+- Alemania  
+- Reino Unido (UK)  
+- Marrocos  
+
+Esta estrategia comercial no solo busca el éxito económico, sino que tamén se alinea con el impacto positivo que el proxecto generará a nivel social y ambiental.
+
+## Impacto socioeconómico y ambiental  
+
+El Proyecto AGROSOLVENTS se concibió con un doble impacto fundamental. Por un lado, busca generar valor económico y fortalecer la competitividad de **DROVI** en el mercado global. Por otro, tiene un compromiso intrínseco con la sostenibilidad ambiental, el progreso social y la creación de valor compartido para nuestro entorno.  
+
+## Contribución a la sostenibilidad y la "Química Verde"  
+
+Este proyecto materializa los principios de la "Química Verde" y aborda directamente objetivos ambientales clave:  
+
+- Reducción de emisiones ya que los nuevos disolventes están diseñados para minimizar o eliminar las emisiones de Compuestos Orgánicos Volátiles (COV), mejorando la calidad del aire y la salud de las personas.  
+- Uso de recursos renovables por usar materias primas de origen biológico, como los aceites vegetales, reduce nuestra dependencia de los combustibles fósiles y promueve una economía circular.  
+- Diseño de alternativas ecológicas por ser las microemulsiones a base de agua son una alternativa segura y eficaz a los productos de limpieza y desengrasantes tradicionales, muchos de los cuales son tóxicos o contaminantes. El proyecto se alinea con los tres pilares de la sostenibilidad, buscando crear productos viables (ecológicos y económicos), equitativos (económicos y sociales) y sostenibles (ecológicos y sociales), para lograr un modelo de negocio verdaderamente sostenible.  
+
+### Impacto económico  
+
+El éxito del proyecto **AGROSOLVENTS** tendrá un impacto económico directo y positivo tanto para la empresa como para la región:  
+
+- Creación de empleo cualificado. Una vez finalizado el proyecto y comenzada la fase de producción y comercialización, se prevé la creación de nuevos empleos cualificados gracias al aumento de nuestra capacidad productiva y técnica.  
+- Fortalecimiento del liderazgo. La innovación generada permitirá a **DROVI** consolidar su liderazgo en el noroeste peninsular y competir a nivel nacional e internacional en el mercado emergente de disolventes verdes, creando una ventaja competitiva sostenible y duradera.  
+
+### Compromiso social
+
+**DROVI** reconoce que su equipo humano es el pilar fundamental de su éxito. Por ello, el proyecto **AGROSOLVENTS** también refleja nuestro firme compromiso con la igualdad y la inclusión social.  
+
+- Igualdad de oportunidades. Promovemos activamente la igualdad de género. Un claro ejemplo es que tanto la dirección del proyecto como la del laboratorio están a cargo de mujeres con alta cualificación y experiencia.  
+
+- Inclusión y diversidad. Mantenemos una política de tolerancia cero contra el acoso y fomentamos una cultura empresarial diversa e inclusiva, donde todas las personas tienen las mismas oportunidades y se sienten valoradas y respetadas.
+
+Esta visión integral del proyecto, que combina innovación tecnológica, viabilidad económica y compromiso socioambiental, requiere recursos específicos para su correcta ejecución.  
+
+## Presupuesto del proyecto
+
+Para alcanzar los ambiciosos objetivos del **Proyecto AGROSOLVENTS**, se elaboró ​​un presupuesto detallado que abarca todas las fases de investigación, desarrollo y validación. Los recursos solicitados se planificaron cuidadosamente para garantizar la viabilidad y el éxito del proyecto durante los 24 meses de su ejecución.  
+
+El presupuesto total estimado para el proyecto es de 406.260 €.  
+
+A continuación, se presenta un resumen detallado de las partidas presupuestarias, que reflejan la distribución estratégica de los costes entre personal, materiales, colaboraciones externas y otros gastos operativos.  
+
+| Total | Partida (€) | Porcentaje (%) |  
+| :---------------------------- | -------: | ---------: |. 
+| Personal | 164.776,00 | 40,56 % |  
+| Materiales | 47.900,00 | 11,79 % |  
+| Colaboraciones Eexternas Centro de Investigación (U. de Vigo) | 120.000,00 | 29,54 % |  
+| Otras Colaboraciones | Técnico | 3.000,00 | 0,74% |   
+| Otras colaboraciones no técnicas (FEUGA, Patentes) | 23.000,00 € | 5,66% |  
+| Depreciación de activos | 3.724,00 | 0,92% |  
+| Gastos generales | 39.860,00 | 9,81% |  
+| Otros gastos (auditorías) | 4.000,00 € | 0,98% |  
+| TOTAL | 406.260,00 | 100,00% |  

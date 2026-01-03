@@ -1,6 +1,15 @@
+# ──────────────────────────────────────────────────────────────
+# PROXECTO
+# ──────────────────────────────────────────────────────────────
+
 project:
   type: book
-lang: es
+  output-dir: _book # UVigo servirá esta carpeta
+
+# ──────────────────────────────────────────────────────────────
+# INFORMACIÓN XERAL DO LIBRO
+# ──────────────────────────────────────────────────────────────
+
 book:
   title: "INFORME UVIGO AGROSOLVENTS"
   subtitle: "Informe de la participación del equipo de la UVIGO en el proyecto AGROSOLVENTS"
@@ -8,14 +17,28 @@ book:
     - "Ana María González Sánchez"
     - "Ángel Sánchez Bermúdez"
   date: today
-  cover-image: cover.png
+  language: es
+  page-navigation: false  # Prev/Next
+#  cover-image: cover.png
+
+# ──────────────────────────────────────────────────────────────
+# CAPIITULOS
+# ──────────────────────────────────────────────────────────────
+
   chapters:
-#    - cover.qmd
-    - abstract.md
     - index.qmd
-    - intro.qmd
-    - fames.qmd
-    - reciclado.qmd
+    - prefacio.qmd
+    - part: partei.qmd
+      chapters:
+      - intro.qmd
+      - fames.qmd
+    - part: parteii.qmd
+      chapters:
+      - sintesis-metilesteres.qmd
+      - reciclado.qmd
+    - part: parteiii.qmd
+      chapters:
+      - fames.qmd
     - summary.qmd
     - references.qmd
 
